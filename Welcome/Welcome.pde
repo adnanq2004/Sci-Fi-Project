@@ -1,15 +1,17 @@
 import processing.sound.*;
+import java.io.*;
 
 double currentlevel;
-int timenow;
+double timenow;
 SoundFile sfile;
 PImage bimage;
 PFont mono;
+ArrayList<String> endings = new ArrayList<String>();
 
 void setup() {
   size(1000, 800);
   fill(255);
-  rect(-1,-1,1001,8001);
+  rect(-1,-1,1001,801);
   timenow = second();
   currentlevel = 0.0;
 }
@@ -19,7 +21,7 @@ void draw() {
     //begins setting up the menu.
     
     //prepares the soundfile and background image
-    //sfile = new SoundFile(this, "Mewmore Celadon City (Pokémon Red & Blue Remix).mp3");
+    //sfile = new SoundFile(this, "music/Mewmore Celadon City (Pokémon Red & Blue Remix).mp3");
     bimage = loadImage("space.jpg");
     
     //plays the soundfile
@@ -100,7 +102,7 @@ void draw() {
       text("ENDINGS", width/2, 410);
       //check if mouse is being pressed
       if (mousePressed) {
-        currentlevel = 0.4;
+        currentlevel = 0.3;
       }
     }
     //check if mouse hovering over exit button
@@ -151,6 +153,75 @@ void draw() {
       text("EXIT", width/2, 560);
     }
   }
+  else if (currentlevel == 0.3) {
+    stroke(0);
+    background(bimage);
+    fill(51,99,107,127);
+    rect(0,0,1000,100);
+    rect(0,700,1000,100);
+    
+    stroke(0);
+    fill(2,32,53,190);
+    rect(125,125,750,550);
+    fill(255);
+    textAlign(CENTER);
+    textSize(50);
+    text("Endings you've reached are:", width/2, 180);
+    
+    fill(2,32,53,190);
+    rect(820,710,160,80);
+    fill(255);
+    textAlign(CENTER);
+    textSize(30);
+    text("BACK", 900, 760);
+    
+    currentlevel = 0.4;
+  }
+  else if (currentlevel == 0.4) {
+    if (mouseX > 820 && mouseX < 980 && mouseY > 710 && mouseY < 790) {
+      stroke(255);
+      fill(55,107,126,190);
+      rect(820,710,160,80);
+      fill(255);
+      textAlign(CENTER);
+      textSize(30);
+      text("BACK", 900, 760);
+      
+      if (mousePressed) {
+        currentlevel = 0.1;
+      }
+    }
+    else {
+      stroke(0);
+      background(bimage);
+      fill(51,99,107,127);
+      rect(0,0,1000,100);
+      rect(0,700,1000,100);
+    
+      stroke(0);
+      fill(2,32,53,190);
+      rect(125,125,750,550);
+      fill(255);
+      textAlign(CENTER);
+      textSize(50);
+      text("Endings you've reached are:", width/2, 180);
+    
+      stroke(0);
+      fill(2,32,53,190);
+      rect(820,710,160,80);
+      fill(255);
+      textAlign(CENTER);
+      textSize(30);
+      text("BACK", 900, 760);
+    }
+  }
+  else if (currentlevel == 1.0) {
+    rect(-1,-1,1002,802);
+  }
+}
+
+void displayEndings() {
+  
 }
 
 //void mousePressed() {
