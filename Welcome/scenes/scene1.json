@@ -1,0 +1,49 @@
+{
+  "dialogue": [
+    ["In the Chocolate Syrup Galaxy, Sector 51479..."],
+    ["Laaaaaaaaaadies and gentlemeeeeeeeeen!", "I'm happy to start the final race", "of the 31st Scelerisque Spatium Circuit!"],
+    ["On your marks!"],
+    ["Get set!"],
+    ["GO!"],
+    ["The racers set off, blasting."],
+    ["What a heated race! All the competitors are among", "the best talents back on their planets!"],
+    ["But leading the pack are the absolute best of the best!"],
+    ["In third place is the Crushing Capri!", "He's the oldest of all the racers here,", "and most definitely the most experienced!"],
+    ["Just ahead of him is the Tenatious Tea!", "She's been the odds-on favorite, having won", "the 29th and 30th circuits excellently!"],
+    ["But blasting ahead in first place is…"]
+  ],
+
+  "character": [
+    "Narrator",
+    "Announcer",
+    "Announcer",
+    "Announcer",
+    "Announcer",
+    "Narrator",
+    "Announcer",
+    "Announcer",
+    "Announcer",
+    "Announcer",
+    "Announcer",
+  ],
+
+  "background": "space_city.jpg",
+
+  "music": [
+    "none",
+    "none",
+    "none",
+    "none",
+    "bang.mp3",
+    "racing.mp3",
+    "none",
+    "none",
+    "none",
+    "none",
+    "none",
+  ],
+
+  "endings": [
+    ["scene2.json", ""]
+  ]
+}

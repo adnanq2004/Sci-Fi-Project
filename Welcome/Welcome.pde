@@ -8,29 +8,16 @@ SoundFile sfile;
 PImage bimage;
 PFont mono;
 Scene current_scene;
-ArrayList<String> text = new ArrayList<String>();
+JSONObject source;
 
 void setup() {
   size(1000, 800);
   fill(255);
   rect(-1,-1,1001,801);
   timenow = second();
-  currentlevel = 0.0;
-  
-  //all of the scenes are going here.
-  text.clear();
-  text.add("In the chocolate-syrup galaxy, sector 51479...");
-  Scene A1 = new Single(text,"red_space.jpg","none",false,"Narrator");
-  current_scene = A1;
-  
-  text.clear();
-  text.add("Laaaaaaaaaadies and gentlemeeeeeeeeen!");
-  text.add("I'm happy to start the final race");
-  text.add("of the 31st Scelerisque Spatium Circuit!");
-  Scene A2 = new Single(text, "red_space.jpg", "none", false, "Announcer");
-  A1.next_scene = A2;
-  A2.last_scene = A1;
-  
+  currentlevel = 0.0;  
+  source = loadJSONObject("scene1.json");
+  current_scene = new Scene(source);
 }
 
 void draw() {
@@ -38,12 +25,12 @@ void draw() {
     //begins setting up the menu.
     
     //prepares the soundfile and background image
-    sfile = new SoundFile(this, "music/Mewmore Celadon City (Pokémon Red & Blue Remix).mp3");
+    //sfile = new SoundFile(this, "music/Mewmore Celadon City (Pokémon Red & Blue Remix).mp3");
     bimage = loadImage("space.jpg");
     
     //plays the soundfile
-    sfile.play();
-    sfile.loop();
+    //sfile.play();
+    //sfile.loop();
     
     currentlevel = 0.1;
   }
@@ -67,9 +54,9 @@ void draw() {
       text("PLAY", width/2, 260);
       //check if mouse is being pressed
       if (mousePressed) {
-        if (sfile.isPlaying()) {
-          sfile.stop();
-        }
+        //if (sfile.isPlaying()) {
+        //  sfile.stop();
+        //}
         currentlevel = 1.0;
       }
     }
@@ -131,84 +118,87 @@ void draw() {
     }
   }
   else if (currentlevel == 1.0) {
-    if ((current_scene.music).equals("stop")) {
-      if (sfile.isPlaying()) {
-        sfile.stop();
-      }
-    }
-    else if (!current_scene.music.equals("none")) {
-      sfile = new SoundFile(this, current_scene.music);
-      sfile.play();
-      if (current_scene.loop) {
-        sfile.loop();
-      }
-    }
-    levels_ui();
-    currentlevel = 1.1;
+    
   }
-  else if (currentlevel == 1.1) {
-    levels_ui();
-    currentlevel = 1.2;
-  }
-  else if (currentlevel == 1.2) {
-    if (current_scene.isS()) {
-      //check if hovering over back
-      if (mouseX > 20 && mouseX < 180 && mouseY > 710 && mouseY < 790) {
-        stroke(255);
-        fill(55,107,126,190);
-        rect(20,710,160,80);
-        fill(255);
-        textAlign(CENTER);
-        textSize(30);
-        text("BACK", 100, 760);
+  //else if (currentlevel == 1.0) {
+  //  if ((current_scene.music).equals("stop")) {
+  //    if (sfile.isPlaying()) {
+  //      sfile.stop();
+  //    }
+  //  }
+  //  else if (!current_scene.music.equals("none")) {
+  //    sfile = new SoundFile(this, current_scene.music);
+  //    sfile.play();
+  //    if (current_scene.loop) {
+  //      sfile.loop();
+  //    }
+  //  }
+  //  levels_ui();
+  //  currentlevel = 1.1;
+  //}
+  //else if (currentlevel == 1.1) {
+  //  levels_ui();
+  //  currentlevel = 1.2;
+  //}
+  //else if (currentlevel == 1.2) {
+  //  if (current_scene.isS()) {
+  //    //check if hovering over back
+  //    if (mouseX > 20 && mouseX < 180 && mouseY > 710 && mouseY < 790) {
+  //      stroke(255);
+  //      fill(55,107,126,190);
+  //      rect(20,710,160,80);
+  //      fill(255);
+  //      textAlign(CENTER);
+  //      textSize(30);
+  //      text("BACK", 100, 760);
         
-        if (mousePressed) {
-          if (current_scene.last_scene != null) {
-            current_scene = current_scene.last_scene;
-            currentlevel = 1.0;
-          }
-          else {
-            currentlevel = 0.0;
-          }
-        }
-      }
-      //check if hovering over exit
-      else if (mouseX>width/2-80 && mouseX < width/2+80 && mouseY > 710 && mouseY < 790) {
-        stroke(255);
-        fill(55,107,126,190);
-        rect(width/2-80,710,160,80);
-        fill(255);
-        textAlign(CENTER);
-        textSize(30);
-        text("MENU", width/2, 760);
+  //      if (mousePressed) {
+  //        if (current_scene.last_scene != null) {
+  //          current_scene = current_scene.last_scene;
+  //          currentlevel = 1.0;
+  //        }
+  //        else {
+  //          currentlevel = 0.0;
+  //        }
+  //      }
+  //    }
+  //    //check if hovering over exit
+  //    else if (mouseX>width/2-80 && mouseX < width/2+80 && mouseY > 710 && mouseY < 790) {
+  //      stroke(255);
+  //      fill(55,107,126,190);
+  //      rect(width/2-80,710,160,80);
+  //      fill(255);
+  //      textAlign(CENTER);
+  //      textSize(30);
+  //      text("MENU", width/2, 760);
         
-        if (mousePressed) {
-          currentlevel = 0.0;
-        }
-      }
-      //check if hovering over next
-      else if (mouseX > 820 && mouseX < 980 && mouseY > 710 && mouseY < 790) {
-        stroke(255);
-        fill(55,107,126,190);
-        rect(820,710,160,80);
-        fill(255);
-        textAlign(CENTER);
-        textSize(30);
-        text("NEXT", 900, 760);
+  //      if (mousePressed) {
+  //        currentlevel = 0.0;
+  //      }
+  //    }
+  //    //check if hovering over next
+  //    else if (mouseX > 820 && mouseX < 980 && mouseY > 710 && mouseY < 790) {
+  //      stroke(255);
+  //      fill(55,107,126,190);
+  //      rect(820,710,160,80);
+  //      fill(255);
+  //      textAlign(CENTER);
+  //      textSize(30);
+  //      text("NEXT", 900, 760);
         
-        if (mousePressed) {
-          current_scene = current_scene.next_scene;
-          currentlevel = 1.0;
-        }
-      }
-      else {
-        levels_ui();
-      }
-    }
-    else if (current_scene.isD()) {
+  //      if (mousePressed) {
+  //        current_scene = current_scene.next_scene;
+  //        currentlevel = 1.0;
+  //      }
+  //    }
+  //    else {
+  //      levels_ui();
+  //    }
+  //  }
+  //  else if (current_scene.isD()) {
       
-    }
-  }
+  //  }
+  //}
 }
 
 void menu_ui() {
@@ -280,67 +270,67 @@ void special_ui() {
 //  //display a duck
 //}
 
-void levels_ui() {
-  bimage = loadImage(current_scene.background);
-  stroke(0);
-  background(bimage);
+//void levels_ui() {
+//  bimage = loadImage(current_scene.background);
+//  stroke(0);
+//  background(bimage);
   
-  fill(51,99,107,127);
-  rect(0,0,1000,100);
-  rect(0,700,1000,100);
+//  fill(51,99,107,127);
+//  rect(0,0,1000,100);
+//  rect(0,700,1000,100);
   
-  fill(2,32,53,127);
-  rect(0,height/2+100,1000,200);
-  rect(20,height/2,200,100,255);
-  fill(255);
-  textAlign(CENTER);
-  text(current_scene.charactername,120,height/2+60);
+//  fill(2,32,53,127);
+//  rect(0,height/2+100,1000,200);
+//  rect(20,height/2,200,100,255);
+//  fill(255);
+//  textAlign(CENTER);
+//  text(current_scene.charactername,120,height/2+60);
   
-  //display dialogue as evenly as I can.
-  for (int i = 0; i < (current_scene.dialogue).size(); i++) {
-    fill(255);
-    textAlign(CENTER);
-    text(current_scene.dialogue.get(i), width/2, height/2+150+(50*i));
-  }
+//  //display dialogue as evenly as I can.
+//  for (int i = 0; i < (current_scene.dialogue).size(); i++) {
+//    fill(255);
+//    textAlign(CENTER);
+//    text(current_scene.dialogue.get(i), width/2, height/2+150+(50*i));
+//  }
   
-  if (current_scene.isS()) {
-    fill(2,32,53,190);
-    rect(20,710,160,80);
-    fill(255);
-    textAlign(CENTER);
-    textSize(30);
-    text("BACK", 100, 760);
+//  if (current_scene.isS()) {
+//    fill(2,32,53,190);
+//    rect(20,710,160,80);
+//    fill(255);
+//    textAlign(CENTER);
+//    textSize(30);
+//    text("BACK", 100, 760);
     
-    fill(2,32,53,190);
-    rect(width/2-80,710,160,80);
-    fill(255);
-    textAlign(CENTER);
-    textSize(30);
-    text("MENU", width/2, 760);
+//    fill(2,32,53,190);
+//    rect(width/2-80,710,160,80);
+//    fill(255);
+//    textAlign(CENTER);
+//    textSize(30);
+//    text("MENU", width/2, 760);
     
-    fill(2,32,53,190);
-    rect(820,710,160,80);
-    fill(255);
-    textAlign(CENTER);
-    textSize(30);
-    text("NEXT", 900, 760);
-  }
-  else if (current_scene.isD()) {
-    fill(2,32,53,190);
-    rect(20,710,160,80);
-    fill(255);
-    textAlign(CENTER);
-    textSize(30);
-    text("BACK", 100, 760);
+//    fill(2,32,53,190);
+//    rect(820,710,160,80);
+//    fill(255);
+//    textAlign(CENTER);
+//    textSize(30);
+//    text("NEXT", 900, 760);
+//  }
+//  else if (current_scene.isD()) {
+//    fill(2,32,53,190);
+//    rect(20,710,160,80);
+//    fill(255);
+//    textAlign(CENTER);
+//    textSize(30);
+//    text("BACK", 100, 760);
     
-    fill(2,32,53,190);
-    rect(width/2-80,710,160,80);
-    fill(255);
-    textAlign(CENTER);
-    textSize(30);
-    text("MENU", width/2, 760);
-  }
-}
+//    fill(2,32,53,190);
+//    rect(width/2-80,710,160,80);
+//    fill(255);
+//    textAlign(CENTER);
+//    textSize(30);
+//    text("MENU", width/2, 760);
+//  }
+//}
 
 //void mousePressed() {
 //  println("{"+mouseX+", "+mouseY+"}");

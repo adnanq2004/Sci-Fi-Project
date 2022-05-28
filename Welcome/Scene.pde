@@ -1,33 +1,34 @@
 class Scene{
-  ArrayList<String> dialogue;
+  
+  ArrayList<ArrayList<String>> dialogue = new ArrayList<ArrayList<String>>();
   String background;
-  String music;
-  boolean loop;
-  String charactername;
-  boolean isSingle;
-  boolean isDouble;
-  boolean isEnd;
-  public Scene next_scene;
-  public Scene last_scene;
+  ArrayList<String> characters = new ArrayList<String>();
+  ArrayList<String> music = new ArrayList<String>();
+  ArrayList<ArrayList<String>> endings = new ArrayList<ArrayList<String>>();
   
-  Scene(ArrayList<String> d, String b, String m, boolean l, String c, boolean si, boolean di, boolean ei){
-    dialogue = d;
-    background = b;
-    music = m;
-    loop = l;
-    charactername = c;
-    isSingle = si;
-    isDouble = di;
-    isEnd = ei;
-  }
-  
-  boolean isS() {
-    return isSingle;
-  }
-  boolean isD() {
-    return isDouble;
-  }
-  boolean isE() {
-    return isEnd;
+  Scene(JSONObject json) {
+    JSONArray dialogue_array = json.getJSONArray("dialogue");
+    for (int i = 0; i < dialogue_array.size(); i++) {
+      dialogue.add(new ArrayList<String>());
+      for (int j = 0; j < dialogue_array.getJSONArray(i).size(); j++) {
+        dialogue.get(i).add(dialogue_array.getJSONArray(i).getString(j));
+      }
+    }
+    background = json.getString("background");
+    JSONArray character_array = json.getJSONArray("character");
+    for (int i = 0; i < character_array.size(); i++) {
+      characters.add(character_array.getString(i));
+    }
+    JSONArray music_array = json.getJSONArray("music");
+    for (int i = 0; i < music_array.size(); i++) {
+      characters.add(music_array.getString(i));
+    }
+    JSONArray ending_array = json.getJSONArray("dialogue");
+    for (int i = 0; i < ending_array.size(); i++) {
+      endings.add(new ArrayList<String>());
+      for (int j = 0; j < ending_array.getJSONArray(i).size(); j++) {
+        endings.get(i).add(ending_array.getJSONArray(i).getString(j));
+      }
+    }
   }
 }
