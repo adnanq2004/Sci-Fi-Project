@@ -3,7 +3,7 @@ class Scene{
   ArrayList<ArrayList<String>> dialogue = new ArrayList<ArrayList<String>>();
   String background;
   ArrayList<String> characters = new ArrayList<String>();
-  ArrayList<String> music = new ArrayList<String>();
+  ArrayList<ArrayList<String>> music = new ArrayList<ArrayList<String>>();
   ArrayList<ArrayList<String>> endings = new ArrayList<ArrayList<String>>();
   
   Scene(JSONObject json) {
@@ -21,7 +21,10 @@ class Scene{
     }
     JSONArray music_array = json.getJSONArray("music");
     for (int i = 0; i < music_array.size(); i++) {
-      characters.add(music_array.getString(i));
+      music.add(new ArrayList<String>());
+      for (int j = 0; j < music_array.getJSONArray(i).size(); j++) {
+        music.get(i).add(music_array.getJSONArray(i).getString(j));
+      }
     }
     JSONArray ending_array = json.getJSONArray("dialogue");
     for (int i = 0; i < ending_array.size(); i++) {
