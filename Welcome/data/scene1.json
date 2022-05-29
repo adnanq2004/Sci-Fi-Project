@@ -6,11 +6,19 @@
     ["Get set!"],
     ["GO!"],
     ["The racers set off, blasting."],
-    ["What a heated race! All of these competitors are among", "the best talents back on their home planets!"],
+    ["What a heated race! All of these competitors are among", "the best talents from their home planets!"],
     ["But leading the pack are the absolute best of the best!"],
     ["In third place is the Crushing Capri!", "He's the oldest of all the racers here,", "and most definitely the most experienced!"],
     ["Just ahead of him is the Tenatious Tea!", "She's been the odds-on favorite, having won", "the 29th and 30th circuits excellently!"],
-    ["But blasting ahead in first place is…"]
+    ["But blasting ahead in first place is…"],
+    ["Hah, left all those losers in the dust!"],
+    ["The Spry Spirytus!"],
+    ["She's the youngest blackhorse we've seen all season!", "She’s caused quite the upset in this year's circuit,", "and stands out even in this crowd!"],
+    ["That's it, keep singing my praises.", "Hell yeah, I’m gonna win this thing!"],
+    ["The lead racers are now reaching the finish line!", "Second and Third are neck-and-neck, but the winner is…"],
+    ["The Spry Spirytus!!"],
+    ["Wooo!!"],
+    [""]
   ],
 
   "character": [
@@ -25,6 +33,13 @@
     "Announcer",
     "Announcer",
     "Announcer",
+    "???",
+    "Announcer",
+    "Announcer",
+    "Spirytus",
+    "Announcer",
+    "Announcer",
+    "Crowd"
   ],
 
   "background": "space_asteroids.jpg",
@@ -41,6 +56,13 @@
     ["none"],
     ["none"],
     ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["stop"],
+    ["victory.mp3"]
   ],
 
   "endings": [

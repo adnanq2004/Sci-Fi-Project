@@ -17,6 +17,17 @@ void setup() {
   fill(255);
   rect(-1,-1,1001,801);
   timenow = second();
+  //might compile all of the sound files at the very beginning
+  File folder = new File("music");
+  String[] filenames = folder.list();
+  try {
+    for (int i = 0; i < filenames.length; i++) {
+      sfile = new SoundFile(this, "music/" + filenames[i]);
+    }
+  }
+  catch (Exception e){
+    System.out.println("found an excpetion");
+  }
   currentlevel = 0.0;  
   source = loadJSONObject("scene1.json");
   current_scene = new Scene(source);
@@ -295,12 +306,14 @@ void levels_ui() {
     textSize(30);
     text(current_scene.endings.get(0).get(1), 100, 60);
     
-    fill(2,32,53,190);
-    rect(820,10,160,80);
-    fill(255);
-    textAlign(CENTER);
-    textSize(30);
-    text(current_scene.endings.get(1).get(1), 900, 60);
+    if (current_scene.endings.size() > 1) {
+      fill(2,32,53,190);
+      rect(820,10,160,80);
+      fill(255);
+      textAlign(CENTER);
+      textSize(30);
+      text(current_scene.endings.get(1).get(1), 900, 60);
+    }
   }
 }
 
@@ -367,7 +380,7 @@ void levels_hover_ui() {
     }
   }
   //check if hovering over option2
-  else if (mouseX > 820 && mouseX < 980 && mouseY > 10 && mouseY < 90 && (current_section == max_section-1)) {
+  else if (mouseX > 820 && mouseX < 980 && mouseY > 10 && mouseY < 90 && (current_scene.endings.size() > 1) && (current_section == max_section-1)) {
     stroke(255);
     fill(55,107,126,190);
     fill(255);
