@@ -2,7 +2,7 @@ import processing.sound.*;
 import java.io.*;
 
 double currentlevel;
-double timenow;
+int timenow;
 SoundFile sfile;
 PImage bimage;
 PFont mono;
@@ -37,9 +37,6 @@ void draw() {
     //begins setting up the menu.
     
     //prepares the soundfile and background image
-    if (sfile!=null && sfile.isPlaying()) {
-      sfile.stop();
-    }
     sfile = new SoundFile(this, "music/" + "menu.mp3");
     sfile.amp(0.2);
     bimage = loadImage("space.jpg");
@@ -133,12 +130,21 @@ void menu_hover_ui() {
     textSize(30);
     text("PLAY", width/2, 260);
     //check if mouse is being pressed
-    if (mousePressed) {
-      if (sfile.isPlaying()) {
-        sfile.stop();
+    if (timenow > millis()) {
+      timenow = millis();
+    }
+    else {
+      if (millis() - timenow >= 50) {
+        if (mousePressed) {
+        
+          if (sfile.isPlaying()) {
+            sfile.stop();
+          }
+          currentlevel = 1.0;
+          current_section = 0;
+        }
+        timenow = millis();
       }
-      currentlevel = 1.0;
-      current_section = 0;
     }
   }
   //check if mouse hovering over special button
@@ -152,8 +158,16 @@ void menu_hover_ui() {
     textSize(30);
     text("SPECIAL", width/2, 410);
     //check if mouse is being pressed
-    if (mousePressed) {
-      currentlevel = 0.3;
+    if (timenow > millis()) {
+      timenow = millis();
+    }
+    else {
+      if (millis() - timenow >= 50) {
+        if (mousePressed) {
+          currentlevel = 0.3;
+        }
+        timenow = millis();
+      }
     }
   }
   //check if mouse hovering over exit button
@@ -167,8 +181,16 @@ void menu_hover_ui() {
     textSize(30);
     text("EXIT", width/2, 560);
     //check if the mouse is being pressed
-    if (mousePressed) {
-      exit();
+    if (timenow > millis()) {
+      timenow = millis();
+    }
+    else {
+      if (millis() - timenow >= 50) {
+        if (mousePressed) {
+          exit();
+        }
+        timenow = millis();
+      }
     }
   }
   else {
@@ -214,9 +236,18 @@ void special_hover_ui() {
     textSize(30);
     text("BACK", 900, 760);
     
-    if (mousePressed) {
-      currentlevel = 0.1;
+    if (timenow > millis()) {
+      timenow = millis();
     }
+    else {
+      if (millis() - timenow >= 50) {
+        if (mousePressed) {
+          currentlevel = 0.1;
+        }
+        timenow = millis();
+      }
+    }
+    
   }
   else {
     special_ui();
@@ -332,11 +363,20 @@ void levels_hover_ui() {
     textSize(30);
     text("BACK", 100, 760);
     
-    if (mousePressed) {
-      if (current_section > 0) {
-        current_section -= 1;
-      }
+    if (timenow > millis()) {
+      timenow = millis();
     }
+    else {
+      if (millis() - timenow >= 50) {
+        if (mousePressed) {
+          if (current_section > 0) {
+            current_section -= 1;
+            currentlevel = 1.0;
+          }
+        }
+        timenow = millis();
+      }
+    }    
   }
   //check if hovering over menu
   else if (mouseX>width/2-80 && mouseX < width/2+80 && mouseY > 710 && mouseY < 790) {
@@ -348,8 +388,19 @@ void levels_hover_ui() {
     textSize(30);
     text("MENU", width/2, 760);
     
-    if (mousePressed) {
-      currentlevel = 0.0;
+    if (timenow > millis()) {
+      timenow = millis();
+    }
+    else {
+      if (millis() - timenow >= 50) {
+        if (mousePressed) {
+          if (sfile.isPlaying()) {
+            sfile.stop();
+          }
+          currentlevel = 0.0;
+        }
+        timenow = millis();
+      }
     }
   }
   //check if hovering over next
@@ -362,9 +413,17 @@ void levels_hover_ui() {
     textSize(30);
     text("NEXT", 900, 760);
     
-    if (mousePressed) {
-      current_section += 1;
-      currentlevel = 1.0;
+    if (timenow > millis()) {
+      timenow = millis();
+    }
+    else {
+      if (millis() - timenow >= 50) {
+        if (mousePressed) {
+          current_section += 1;
+          currentlevel = 1.0;
+        }
+        timenow = millis();
+      }
     }
   }
   //check if hovering over option1
@@ -377,10 +436,18 @@ void levels_hover_ui() {
     textSize(30);
     text(current_scene.endings.get(0).get(1), 100, 60);
     
-    if (mousePressed) {
-      source = loadJSONObject(current_scene.endings.get(0).get(0));
-      current_section = 0;
-      currentlevel = 1.0;
+    if (timenow > millis()) {
+      timenow = millis();
+    }
+    else {
+      if (millis() - timenow >= 50) {
+        if (mousePressed) {
+          source = loadJSONObject(current_scene.endings.get(0).get(0));
+          current_section = 0;
+          currentlevel = 1.0;
+        }
+        timenow = millis();
+      }
     }
   }
   //check if hovering over option2
@@ -392,10 +459,18 @@ void levels_hover_ui() {
     textSize(30);
     text(current_scene.endings.get(1).get(1), 900, 60);
     
-    if (mousePressed) {
-      source = loadJSONObject(current_scene.endings.get(1).get(0));
-      current_section = 0;
-      currentlevel = 1.0;
+    if (timenow > millis()) {
+      timenow = millis();
+    }
+    else {
+      if (millis() - timenow >= 50) {
+        if (mousePressed) {
+          source = loadJSONObject(current_scene.endings.get(1).get(0));
+          current_section = 0;
+          currentlevel = 1.0;
+        }
+        timenow = millis();
+      }
     }
   }
   else {
