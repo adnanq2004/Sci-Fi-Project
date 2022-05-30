@@ -1,6 +1,5 @@
 import processing.sound.*;
 import java.io.*;
-import java.util.ArrayList;
 
 double currentlevel;
 double timenow;
@@ -18,7 +17,7 @@ void setup() {
   rect(-1,-1,1001,801);
   timenow = second();
   //might compile all of the sound files at the very beginning
-  File folder = new File("music");
+  File folder = new File(dataPath("music"));
   String[] filenames = folder.list();
   try {
     for (int i = 0; i < filenames.length; i++) {
@@ -38,7 +37,11 @@ void draw() {
     //begins setting up the menu.
     
     //prepares the soundfile and background image
+    if (sfile!=null && sfile.isPlaying()) {
+      sfile.stop();
+    }
     sfile = new SoundFile(this, "music/" + "menu.mp3");
+    sfile.amp(0.2);
     bimage = loadImage("space.jpg");
     
     //plays the soundfile
@@ -230,6 +233,7 @@ void levels_startup() {
   else {
     if (!(current_scene.music.get(current_section).get(0).equals("none"))) {
       sfile = new SoundFile(this, "music/" + current_scene.music.get(current_section).get(0));
+      sfile.amp(0.2);
       sfile.play();
       if (current_scene.music.get(current_section).size() > 1 && current_scene.music.get(current_section).get(1).equals("l")) {
         sfile.loop();
