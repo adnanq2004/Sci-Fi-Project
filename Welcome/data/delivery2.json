@@ -35,7 +35,19 @@
   "background": "alley.jpg",
 
   "music": [
-    []
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"]
   ],
 
   "endings": [
