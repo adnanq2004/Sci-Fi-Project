@@ -40,7 +40,10 @@
   "background": "",
 
   "music": [
-    []
+    ["none"],
+    ["none"],
+    ["none"],
+    ["battle1.mp3", "l"]
   ],
 
   "endings": [
