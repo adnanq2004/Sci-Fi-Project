@@ -446,6 +446,9 @@ void levels_hover_ui() {
           current_section = 0;
           currentlevel = 1.0;
           current_scene = new Scene(source);
+          if (sfile.isPlaying()) {
+            sfile.stop();
+          }
         }
         timenow = millis();
       }
@@ -471,6 +474,9 @@ void levels_hover_ui() {
           current_section = 0;
           currentlevel = 1.0;
           current_scene = new Scene(source);
+          if (sfile.isPlaying()) {
+            sfile.stop();
+          }
         }
         timenow = millis();
       }
