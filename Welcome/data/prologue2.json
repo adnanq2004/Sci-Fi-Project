@@ -1,12 +1,12 @@
 {
   "dialogue": [
-    ["...Or you could just call me 'Spirit'."]
-    ["I think I’ll call you Spirit"],
-    ["Perfect. Now, what do you want? I’m a bit of a busy gal"],
+    ["...Or you could just call me 'Spirit'."],
+    ["I think I’ll go with that."],
+    ["Perfect. Now, what do you want? I’m a bit of a busy gal."],
     ["Hey, easy now."],
     ["I think you’ll be quite interested in what I’m about to say."],
     ["Have you ever wanted to be part of something bigger than yourself?", "Sure, running circuits like this is all fine and good,", "but what if-"],
-    ["Sorry, I’m gonna cut you off there."],
+    ["Sorry, I'll cut you off there."],
     ["I’m not looking to get involved in the war."],
     ["I’m surprised you could tell what I was going to ask."],
     ["Well, you aren’t the first person to try and recruit me", "after being wowed by my racing skills.", "I can’t exactly blame you for it."],
@@ -44,6 +44,7 @@
   "background": "space_asteroids.jpg",
 
   "music": [
+    ["none"],
     ["none"],
     ["none"],
     ["none"],

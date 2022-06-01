@@ -445,7 +445,6 @@ void levels_hover_ui() {
           source = loadJSONObject(current_scene.endings.get(0).get(0));
           current_section = 0;
           currentlevel = 1.0;
-          current_scene = new Scene(source);
         }
         timenow = millis();
       }
@@ -470,7 +469,6 @@ void levels_hover_ui() {
           source = loadJSONObject(current_scene.endings.get(1).get(0));
           current_section = 0;
           currentlevel = 1.0;
-          current_scene = new Scene(source);
         }
         timenow = millis();
       }
