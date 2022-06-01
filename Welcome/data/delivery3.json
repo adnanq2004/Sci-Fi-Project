@@ -1,21 +1,27 @@
 {
   "dialogue": [
-    []
+    ["Spirit returned home to prepare for the journey to Exus."],
+    ["After letting Toni know she won't need the job,", "she checks the condition of her space vehicle and stocks on food."],
+    ["Alright, I'm set."]
   ],
 
 
   "character": [
-    ""
+    "Narrator",
+    "Narrator",
+    "Spirit"
   ],
 
-  "background": "",
+  "background": "room.png",
 
   "music": [
-    []
+    ["none"],
+    ["none"],
+    ["none"]
   ],
 
   "endings": [
-    []
+    ["delivery4.json", "Start the trip."]
   ]
 
 }
