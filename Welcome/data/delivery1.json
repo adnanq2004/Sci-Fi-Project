@@ -1,21 +1,27 @@
 {
   "dialogue": [
-    []
+    ["Can you tell me more details?"],
+    ["Heh, good to see I got your attention."],
+    ["Follow me, let's talk somewhere more private."]
   ],
 
 
   "character": [
-    ""
+    "Spirit",
+    "???",
+    "???"
   ],
 
-  "background": "",
+  "background": "street.png",
 
   "music": [
-    []
+    ["none"],
+    ["none"],
+    ["none"]
   ],
 
   "endings": [
-    []
+    ["delivery1.json", "Follow the man"]
   ]
 
 }
