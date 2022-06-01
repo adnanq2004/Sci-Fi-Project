@@ -1,0 +1,57 @@
+{
+  "dialogue": [
+    ["As Spirit walked into the job office,", "she couldn't help but notice how empty it was."],
+    ["Hello? Toni? I came by to hear about that job you mentioned?"],
+    ["Oh, Spirit! I’m glad you’re here,", "do you mind coming into the back room?"],
+    ["Spirit follows Toni's voice to a room in the back", "and sees the woman from the other day."],
+    ["Oh, Spirit. What a surprise to meet again so soon.", "Are you here because of my request?"],
+    ["Actually, Ms. Tequia, I haven't given her the details yet..."],
+    ["Perfect. Allow me to formally introduce myself."],
+    ["My name is Tequia, a Sergeant First Class", "of the Cocktail Empire's fourth platoon."],
+    ["I'm here to offer you the same thing as yesterday.", "I have a position that needs to be filled."],
+    ["You're only task would be flying the infnatry ships,", "hardware ships, cargo ships, etc."],
+    ["It's honestly not even that dangerous, and", "because of your reputation,", "I can promise you better than average pay."],
+    ["So, those are my conditions. Do you accept?"]
+
+  ],
+
+
+  "character": [
+    "Narrator",
+    "Spirit",
+    "Toni",
+    "Narrator",
+    "???",
+    "Toni",
+    "'Tequia'",
+    "Tequia",
+    "Tequia",
+    "Tequia",
+    "Tequia",
+    "Tequia"
+
+  ],
+
+  "background": "backroom.jpg",
+
+  "music": [
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"]
+  ],
+
+  "endings": [
+    ["empire.json", "Accept"],
+    ["prologue7.json", "Reject"]
+  ]
+
+}

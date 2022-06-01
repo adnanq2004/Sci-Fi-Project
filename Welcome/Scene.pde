@@ -26,7 +26,7 @@ class Scene{
         music.get(i).add(music_array.getJSONArray(i).getString(j));
       }
     }
-    JSONArray ending_array = json.getJSONArray("dialogue");
+    JSONArray ending_array = json.getJSONArray("endings");
     for (int i = 0; i < ending_array.size(); i++) {
       endings.add(new ArrayList<String>());
       for (int j = 0; j < ending_array.getJSONArray(i).size(); j++) {

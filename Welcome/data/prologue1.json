@@ -9,16 +9,19 @@
     ["What a heated race! All of these competitors are among", "the best talents from their home planets!"],
     ["But leading the pack are the absolute best of the best!"],
     ["In third place is the Crushing Capri!", "He's the oldest of all the racers here,", "and most definitely the most experienced!"],
-    ["Just ahead of him is the Tenatious Tea!", "She's been the odds-on favorite, having won", "the 29th and 30th circuits excellently!"],
+    ["Just ahead of him is the Tenatious Tea!", "She's been the odds-on favorite, being", "our champion of the last circuit!"],
     ["But blasting ahead in first place is…"],
     ["Hah, left all those losers in the dust!"],
     ["The Spry Spirytus!"],
-    ["She's the youngest blackhorse we've seen all season!", "She’s caused quite the upset in this year's circuit,", "and stands out even in this crowd!"],
+    ["They're the youngest blackhorse we've seen all season!", "They caused quite the upset in this year's circuit,", "coming out of nowhere and winning race after race!"],
     ["That's it, keep singing my praises.", "Hell yeah, I’m gonna win this thing!"],
     ["The lead racers are now reaching the finish line!", "Second and Third are neck-and-neck, but the winner is…"],
     ["The Spry Spirytus!!"],
     ["Wooo!!"],
-    [""]
+    ["Woooooo!"],
+    ["Wooo!"],
+    ["Spirytus collects her prize money and begins to leave", "the race area, But they're interrupted", "on their way out by a mysterious figure."],
+    ["Hey now, that was some nice racing there!", "I wonder if 'The Spry Spirytus' is just what you go by", "or is there something else you prefer?"]
   ],
 
   "character": [
@@ -36,10 +39,14 @@
     "???",
     "Announcer",
     "Announcer",
-    "Spirytus",
+    "'Spirytus'",
     "Announcer",
     "Announcer",
-    "Crowd"
+    "Crowd",
+    "Crowd",
+    "Crowd",
+    "Narrator",
+    "???"
   ],
 
   "background": "space_asteroids.jpg",
@@ -62,11 +69,15 @@
     ["none"],
     ["none"],
     ["stop"],
-    ["victory.mp3"]
+    ["victory.wav", "l"],
+    ["none"],
+    ["none"],
+    ["stop"],
+    ["none"],
   ],
 
   "endings": [
-    ["scene2.json", "accept"],
-    ["scene3.json", "reject"]
+    ["prologue2.json", "Spiros sounds cool"],
+    ["prologue2.json", "Pyrus is dandy"]
   ]
 }

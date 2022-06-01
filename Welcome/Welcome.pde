@@ -28,7 +28,7 @@ void setup() {
     System.out.println("found an excpetion");
   }
   currentlevel = 0.0;  
-  source = loadJSONObject("scene1.json");
+  source = loadJSONObject("prologue1.json");
   current_scene = new Scene(source);
 }
 
@@ -134,7 +134,7 @@ void menu_hover_ui() {
       timenow = millis();
     }
     else {
-      if (millis() - timenow >= 50) {
+      if (millis() - timenow >= 100) {
         if (mousePressed) {
         
           if (sfile.isPlaying()) {
@@ -162,7 +162,7 @@ void menu_hover_ui() {
       timenow = millis();
     }
     else {
-      if (millis() - timenow >= 50) {
+      if (millis() - timenow >= 100) {
         if (mousePressed) {
           currentlevel = 0.3;
         }
@@ -185,7 +185,7 @@ void menu_hover_ui() {
       timenow = millis();
     }
     else {
-      if (millis() - timenow >= 50) {
+      if (millis() - timenow >= 100) {
         if (mousePressed) {
           exit();
         }
@@ -240,7 +240,7 @@ void special_hover_ui() {
       timenow = millis();
     }
     else {
-      if (millis() - timenow >= 50) {
+      if (millis() - timenow >= 100) {
         if (mousePressed) {
           currentlevel = 0.1;
         }
@@ -290,7 +290,7 @@ void levels_ui() {
   for (int i = 0; i < (current_scene.dialogue.get(current_section)).size(); i++) {
     fill(255);
     textAlign(CENTER);
-    text(current_scene.dialogue.get(current_section).get(i), width/2, height/2+130+(50*i));
+    text(current_scene.dialogue.get(current_section).get(i), width/2, height/2+160+(50*i));
   }
   //display character name
   fill(255);
@@ -335,19 +335,19 @@ void levels_ui() {
     text("MENU", width/2, 760);
     
     fill(2,32,53,190);
-    rect(20,10,160,80);
+    rect(20,10,400,80);
     fill(255);
     textAlign(CENTER);
     textSize(30);
-    text(current_scene.endings.get(0).get(1), 100, 60);
+    text(current_scene.endings.get(0).get(1), 220, 60);
     
     if (current_scene.endings.size() > 1) {
       fill(2,32,53,190);
-      rect(820,10,160,80);
+      rect(580,10,400,80);
       fill(255);
       textAlign(CENTER);
       textSize(30);
-      text(current_scene.endings.get(1).get(1), 900, 60);
+      text(current_scene.endings.get(1).get(1), 780, 60);
     }
   }
 }
@@ -367,7 +367,7 @@ void levels_hover_ui() {
       timenow = millis();
     }
     else {
-      if (millis() - timenow >= 50) {
+      if (millis() - timenow >= 100) {
         if (mousePressed) {
           if (current_section > 0) {
             current_section -= 1;
@@ -392,7 +392,7 @@ void levels_hover_ui() {
       timenow = millis();
     }
     else {
-      if (millis() - timenow >= 50) {
+      if (millis() - timenow >= 100) {
         if (mousePressed) {
           if (sfile.isPlaying()) {
             sfile.stop();
@@ -417,7 +417,7 @@ void levels_hover_ui() {
       timenow = millis();
     }
     else {
-      if (millis() - timenow >= 50) {
+      if (millis() - timenow >= 100) {
         if (mousePressed) {
           current_section += 1;
           currentlevel = 1.0;
@@ -427,20 +427,20 @@ void levels_hover_ui() {
     }
   }
   //check if hovering over option1
-  else if (mouseX > 20 && mouseX < 180 && mouseY > 10 && mouseY < 90 && (current_section == max_section-1)) {
+  else if (mouseX > 20 && mouseX < 420 && mouseY > 10 && mouseY < 90 && (current_section == max_section-1)) {
     stroke(255);
     fill(55,107,126,190);
-    rect(20,10,160,80);
+    rect(20,10,400,80);
     fill(255);
     textAlign(CENTER);
     textSize(30);
-    text(current_scene.endings.get(0).get(1), 100, 60);
+    text(current_scene.endings.get(0).get(1), 220, 60);
     
     if (timenow > millis()) {
       timenow = millis();
     }
     else {
-      if (millis() - timenow >= 50) {
+      if (millis() - timenow >= 100) {
         if (mousePressed) {
           source = loadJSONObject(current_scene.endings.get(0).get(0));
           current_section = 0;
@@ -451,19 +451,20 @@ void levels_hover_ui() {
     }
   }
   //check if hovering over option2
-  else if (mouseX > 820 && mouseX < 980 && mouseY > 10 && mouseY < 90 && (current_scene.endings.size() > 1) && (current_section == max_section-1)) {
+  else if (mouseX > 580 && mouseX < 980 && mouseY > 10 && mouseY < 90 && (current_scene.endings.size() > 1) && (current_section == max_section-1)) {
     stroke(255);
     fill(55,107,126,190);
+    rect(580,10,400,80);
     fill(255);
     textAlign(CENTER);
     textSize(30);
-    text(current_scene.endings.get(1).get(1), 900, 60);
+    text(current_scene.endings.get(1).get(1), 780, 60);
     
     if (timenow > millis()) {
       timenow = millis();
     }
     else {
-      if (millis() - timenow >= 50) {
+      if (millis() - timenow >= 100) {
         if (mousePressed) {
           source = loadJSONObject(current_scene.endings.get(1).get(0));
           current_section = 0;
