@@ -1,12 +1,15 @@
 {
   "dialogue": [
     ["After Spirit landed on Exus, she headed", "straight to the largest city she could find."],
-    ["She then looked for the figure Shandy told her about."],
+    ["She then looked for the person Shandy told her about."],
     ["By chance she saw him at a marketplace..."],
-    ["Oy, What do you think you're doing?", "How dare you get in the Empire's way!"],
+    ["Oi, What do you think you're doing?", "How dare you get in the way", "of the soldiers of the Empire!"],
     ["Oh, I'm so sorry, officer. My foot must have slipped."],
     ["Why you..."],
     ["...just as he was getting into some trouble."],
+    ["Spirit watched as the man was slowly backing away from the officers.", "It was then that Spirt noticed a child cowering behind the man."],
+    ["She decided to act, to both get the job over with", "and to help the child."],
+    ["She caused a distraction", "to give the two a chance to run."],
     [""]
   ],
 
@@ -18,7 +21,11 @@
     "Soldier",
     "???",
     "Soldier",
-    
+    "Narrator",
+    "Narrator",
+    "Narrator",
+    "Narrator",
+    "Spirit",
   ],
 
   "background": "",
