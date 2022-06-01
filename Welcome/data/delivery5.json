@@ -10,7 +10,12 @@
     ["Spirit watched as the man was slowly backing away from the officers.", "It was then that Spirt noticed a child cowering behind the man."],
     ["She decided to act, to both get the job over with", "and to help the child."],
     ["She caused a distraction", "to give the two a chance to run."],
-    [""]
+    [""],
+    ["What was that?!"],
+    ["!"],
+    ["Spirit watched the two run away, and prepared to run away herself."],
+    ["Hey, you, stop!"]
+    
   ],
 
 
@@ -26,6 +31,10 @@
     "Narrator",
     "Narrator",
     "Spirit",
+    "Soldier",
+    "???",
+    "Narrartor",
+    "Soldier",
   ],
 
   "background": "",
