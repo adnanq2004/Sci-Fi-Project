@@ -15,7 +15,6 @@
     ["!"],
     ["Spirit watched the two run away, and prepared to run away herself."],
     ["Hey, you, stop!"]
-    
   ],
 
 
@@ -34,7 +33,7 @@
     "Soldier",
     "???",
     "Narrartor",
-    "Soldier",
+    "Soldier"
   ],
 
   "background": "",
@@ -43,7 +42,18 @@
     ["none"],
     ["none"],
     ["none"],
-    ["battle1.mp3", "l"]
+    ["battle1.mp3", "l"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["stop"]
   ],
 
   "endings": [
