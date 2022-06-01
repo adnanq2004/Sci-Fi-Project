@@ -1,21 +1,45 @@
 {
   "dialogue": [
-    []
+    ["Spirit followed the shady looking man to an alley."],
+    ["Well, I've followed you. Now, tell me", "who you are and more about this job."],
+    ["Haha, good to see you're eager.", "You can call me 'Shandy'."],
+    ["Like I said before, it's a delivery job.", "My people have certain...packages that we need sent."],
+    ["Unfortunately, the destination is a bit troublesome to reach", "so we're trying to get a skilled flier out there."],
+    ["Where exactly do I have to go?"],
+    ["You'd need to go to plant Exus."],
+    ["...Isn't that the covered by an asteroid field this year?"],
+    ["Yeah, think you can't do the job?"],
+    ["Please, you think a asteroid field is enough to stop me?", "Your only concern should be how much you're paying me for it."],
+    ["Haha, I like your attitude.", "Let's get you a contract drafted."],
+    ["The two spent an hour drafting a contract, before both were finally satisfied."],
+    ["Alright, I think we can agree to that.", "Now, get a move on, you have a job to do!"]
   ],
 
 
   "character": [
-    ""
+    "Narrator",
+    "Spirit",
+    "Shandy",
+    "Shandy",
+    "Shandy",
+    "Spirit",
+    "Shandy",
+    "Spirit",
+    "Shandy",
+    "Spirit",
+    "Shandy",
+    "Narrator",
+    "Shandy"
   ],
 
-  "background": "",
+  "background": "alley.jpg",
 
   "music": [
     []
   ],
 
   "endings": [
-    []
+    ["delivery.json", "Get a move on."]
   ]
 
 }
