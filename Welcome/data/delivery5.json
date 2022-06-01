@@ -1,1 +1,34 @@
+{
+  "dialogue": [
+    ["After Spirit landed on Exus, she headed", "straight to the largest city she could find."],
+    ["She then looked for the figure Shandy told her about."],
+    ["By chance she saw him at a marketplace..."],
+    ["Oy, What do you think you're doing?", "How dare you get in the Empire's way!"],
+    ["Oh, I'm so sorry, officer. My foot must have slipped."],
+    ["Why you..."],
+    ["...just as he was getting into some trouble."],
+    [""]
+  ],
 
+
+  "character": [
+    "Narrator",
+    "Narrator",
+    "Narrator",
+    "Soldier",
+    "???",
+    "Soldier",
+    
+  ],
+
+  "background": "",
+
+  "music": [
+    []
+  ],
+
+  "endings": [
+    []
+  ]
+
+}
