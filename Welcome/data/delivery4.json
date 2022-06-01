@@ -1,21 +1,36 @@
 {
   "dialogue": [
-    []
+    ["Spirit sets out to Exus."],
+    ["The trip is short, but the planet is", "surrounded by an asteroid field."],
+    ["Spirit narrowly avoids several stray asteroids", "before she's suddenly surrounded by another cluster."],
+    ["F***!"],
+    ["Eventualy, Spirit makes it through and lands on the planet,", "vehicle and goods completely intact."],
+    ["Finally, time to get this shady job over with."]
   ],
 
 
   "character": [
-    ""
+    "Narrator",
+    "Narrator",
+    "Narrator",
+    "Spirit",
+    "Narrator",
+    "Spirit"
   ],
 
-  "background": "",
+  "background": "red_space.jpg",
 
   "music": [
-    []
+    ["intense.mp3", "l"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["stop"]
   ],
 
   "endings": [
-    []
+    ["delivery5,json", "Deliver the goods."]
   ]
 
 }
