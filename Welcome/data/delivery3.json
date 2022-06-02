@@ -2,19 +2,25 @@
   "dialogue": [
     ["Spirit returned home to prepare for the journey to Exus."],
     ["After letting Toni know she won't need the job,", "she checks the condition of her space vehicle and stocks on food."],
-    ["Alright, I'm set.", "Ugh, if I didn't need the money so badly,", "I would never have accepted this job..."]
+    ["Alright, I'm set."], 
+    ["Ugh, I can't believe I'm doing this kind of job..."],
+    ["If I didn't need that money so badly", "I never would've accepted it..."]
   ],
 
 
   "character": [
     "Narrator",
     "Narrator",
+    "Spirit",
+    "Spirit",
     "Spirit"
   ],
 
   "background": "room.png",
 
   "music": [
+    ["none"],
+    ["none"],
     ["none"],
     ["none"],
     ["none"]
