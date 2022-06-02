@@ -1,0 +1,48 @@
+{
+  "dialogue": [
+    ["Spirit made the journey home", "and gave Alo the rest of the money."],
+    ["With that, Spirit's father was able", "to receive proper treatment."],
+    ["He woke up 3 weeks later."],
+    ["Hng..."],
+    ["Dad? Dad! Alo! Dad's waking up!"],
+    ["What?! Okay, relax.", "Let me check his vitals."],
+    ["Ugh...Spirit? What's happening?"],
+    ["Dad, dad, its okay. Take your time getting up."],
+    ["What?...you're not making sense Spirit..."],
+    ["Good news Spirit. He's perfectly healthy!"],
+    ["Okay. okay. Listen dad-"],
+    ["You caught Amlig, which progressed into Magus.", "But, thanks to your daughter, you received treatment already."],
+    ["Yeah! Now, you're fine."],
+    ["...I see. I'm glad then."],
+    ["Me too, dad. Me too."]
+  ],
+
+  "character": [
+    "Narrator",
+    "Narrator",
+    "Narrator",
+    "Spirit's Dad",
+    "Spirit",
+    "Alo",
+    "Spirit's Dad",
+    "Spirit",
+    "Spirit's Dad",
+    "Alo",
+    "Spirit",
+    "Alo",
+    "Spirit",
+    "Spirit's Dad",
+    "Spirit"
+  ],
+
+  "background": "",
+
+  "music": [
+    []
+  ],
+
+  "endings": [
+    []
+  ]
+
+}
