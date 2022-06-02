@@ -7,12 +7,11 @@
     ["Oh, Spirit. What a surprise to meet again so soon.", "Are you here because of my request?"],
     ["Actually, Ms. Tequia, I haven't given her the details yet..."],
     ["Perfect. Allow me to formally introduce myself."],
-    ["My name is Tequia, a Sergeant First Class", "of the Cocktail Empire's fourth platoon."],
+    ["My name is Tequia, a Sergeant First Class", "of the Empire's fourth platoon."],
     ["I'm here to offer you the same thing as yesterday.", "I have a position that needs to be filled."],
     ["You're only task would be flying the infnatry ships,", "hardware ships, cargo ships, etc."],
     ["It's honestly not even that dangerous, and", "because of your reputation,", "I can promise you better than average pay."],
     ["So, those are my conditions. Do you accept?"]
-
   ],
 
 
@@ -29,7 +28,6 @@
     "Tequia",
     "Tequia",
     "Tequia"
-
   ],
 
   "background": "backroom.jpeg",
