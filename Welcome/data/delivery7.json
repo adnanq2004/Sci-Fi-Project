@@ -2,23 +2,72 @@
   "dialogue": [
     ["The two arrived at an encampment."],
     ["We're here!"],
-    ["...Where are we?"],
-    ["Welcome to "]
+    ["Where exactly is 'here'?"],
+    ["Welcome to Trojan!", "Or rather, its headquarters."],
+    ["Headquarters?"],
+    ["Yeah. A group of volunteers came around this planet", "and set up this place for people with financial problems."],
+    ["They could get food, a place to sleep, and support.", "Eventually, we, the Militia, turned it into a refugee camp for the war..."],
+    ["The supplies you brought were mostly", "a restock of common medicines and supplements.", "We were nearly running out, here!"],
+    ["Huh..."],
+    ["I guess it was Shandy who hired you?", "He sent me a telegram about it earlier."],
+    ["Sorry, you must've been worried about", "what stuff you were actually delivering!"],
+    ["I can't deny that. He was really shady when he came up to me."],
+    ["Haha. Here, I should give you the rest of your payment."],
+    ["Thanks."],
+    ["Actually...If you're up for it,", "we could use more of your help."],
+    ["This place, you can see how lively it is, can't you?"],
+    ["That's what we're fighting for. Fighting to protect."],
+    ["So? What's your call?"]
   ],
 
 
   "character": [
-    ""
+    "Narrator",
+    "Whisk",
+    "Spirit",
+    "Whisk",
+    "Spirit",
+    "Whisk",
+    "Whisk",
+    "Whisk",
+    "Spirit",
+    "Whisk",
+    "Whisk",
+    "Spirit",
+    "Whisk",
+    "Spirit",
+    "Whisk",
+    "Whisk",
+    "Whisk",
+    "Whisk"    
   ],
 
-  "background": "",
+  "background": "camp.jpg",
 
   "music": [
-    []
+    ["village.mp3", "l"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["stop"],
+    ["none"],
+    ["none"],
+    ["none"]
   ],
 
   "endings": [
-    []
+    ["milita1.json", "Accept"],
+    ["delivery8.json", "Reject"]
   ]
 
 }
