@@ -10,7 +10,6 @@
     ["I’m not looking to get involved in the war."],
     ["I’m surprised you could tell what I was going to ask."],
     ["Well, you aren’t the first person to try and recruit me", "after being wowed by my racing skills.", "I can’t exactly blame you for it."],
-    ["Plus, you're basically covered in military wear."],
     ["Anyway, I’m not looking to risk my life for some stupid war."],
     ["Oh, what if I offered you double whatever you made", "in that last race upfront? And a just as good payroll", "once you’re actually on the job, I promise."],
     ["Sorry, even then I don’t agree with what the principles", "The Cocktail Empire has stood for lately.", "So I’ll pass."],
@@ -32,7 +31,6 @@
     "???",
     "Spirit",
     "Spirit",
-    "Spirit",
     "???",
     "Spirit",
     "???",
@@ -44,7 +42,6 @@
   "background": "space_asteroids.jpg",
 
   "music": [
-    ["none"],
     ["none"],
     ["none"],
     ["none"],
