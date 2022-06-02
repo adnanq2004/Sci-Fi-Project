@@ -1,1 +1,24 @@
+{
+  "dialogue": [
+    ["The two arrived at an encampment."],
+    ["We're here!"],
+    ["...Where are we?"],
+    ["Welcome to "]
+  ],
 
+
+  "character": [
+    ""
+  ],
+
+  "background": "",
+
+  "music": [
+    []
+  ],
+
+  "endings": [
+    []
+  ]
+
+}
