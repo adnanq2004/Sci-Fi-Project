@@ -16,7 +16,7 @@
     ["Woah, easy."],
     ["Oh, sorry, sorry. It's just, it'll be so helpful,", "having these supplies. They can help a lot of people..."],
     ["...What type of supplies are they exactly?"],
-    [""]
+    ["Come on, I'll show you."]
   ],
 
 
@@ -37,16 +37,33 @@
     "Spirit",
     "Whisk",
     "Spirit",
+    "Whisk"
   ],
 
-  "background": "",
+  "background": "street2.png",
 
   "music": [
-    []
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"]
   ],
 
   "endings": [
-    []
+    ["delivery7.json", "Follow"]
   ]
 
 }
