@@ -1,8 +1,8 @@
 {
   "dialogue": [
     ["After Spirit landed on Exus, she headed", "straight to the largest city she could find."],
-    ["She then looked for the person Shandy told her about."],
-    ["By chance she saw him at a marketplace..."],
+    ["She then looked for someone who", "fit Shandy's description."],
+    ["And by chance she saw him at the marketplace..."],
     ["Oi, What do you think you're doing?", "How dare you get in the way", "of the soldiers of the Empire!"],
     ["Oh, I'm so sorry, officer. My foot must have slipped."],
     ["Why you..."],
@@ -36,7 +36,7 @@
     "Soldier"
   ],
 
-  "background": "",
+  "background": "market.jpg",
 
   "music": [
     ["none"],

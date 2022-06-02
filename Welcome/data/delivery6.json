@@ -1,11 +1,42 @@
 {
   "dialogue": [
-    []
+    ["After running for a long while, Spirit finally", "managed to get away from the soldiers."],
+    ["*pant, pant* Finally got them off my tail *pant*", "*pant* hope those two made it away"],
+    ["But now how am I gonna find that guy again now..."],
+    ["As she was trying to make a plan,", "she met eyes with the very person she was looking for."],
+    ["*pant* Well, if it isn't my savior in sweaty armor."],
+    ["You're not much better yourself."],
+    ["What can you do? Anyway I haven't gotten around to", "thanking you for your help yet, have I? Thanks, a lot."],
+    ["Why'd you go and piss them off so much anyway?"],
+    ["Oh, nothing much. Just noticed them trying to bully", "rations out of a child. I couldn't", "just sit there, doing nothing."],
+    ["What?!"],
+    ["Yeah, didn't realize those Empire sickos could get any worse either.", "Anyway, I wanted to thank you. If ya ever need a favor", "'round these parts, know you can call on Whisk."],
+    ["Well, I have a package to deliver around these parts.", "From the description the client gave, it seems like its for you.", "Mind taking them off my hands?"],
+    ["Wait a...YES! YOU'RE THE COURIER? THANK YOU!"],
+    ["Woah, easy."],
+    ["Oh, sorry, sorry. It's just, it'll be so helpful,", "having these supplies. They can help a lot of people..."],
+    ["...What type of supplies are they exactly?"],
+    [""]
   ],
 
 
   "character": [
-    ""
+    "Narrator",
+    "Spirit",
+    "Spirit",
+    "Narrator",
+    "???",
+    "Spirit",
+    "???",
+    "Spirit",
+    "???",
+    "Spirit",
+    "Whisk",
+    "Spirit",
+    "Whisk",
+    "Spirit",
+    "Whisk",
+    "Spirit",
   ],
 
   "background": "",
