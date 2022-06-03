@@ -51,7 +51,29 @@
   ],
 
   "sprite": [
-    ""
+    "none",
+    "lucina2.png",
+    "none",
+    "lucina4.png",
+    "none",
+    "lucina5.png",
+    "none",
+    "lucina5.png",
+    "none",
+    "lucina2,png",
+    "worm.jpeg",
+    "none",
+    "worm.jpeg",
+    "none",
+    "none",
+    "none",
+    "worm.jpeg",
+    "none",
+    "lucina2.png",
+    "none",
+    "none",
+    "none",
+    "none"
   ],
 
   "background": "__destroying_camp.jpeg",

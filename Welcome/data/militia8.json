@@ -44,7 +44,24 @@
   ],
 
   "sprite": [
-    ""
+    "none",
+    "generic_2a3.png",
+    "lucina4.png",
+    "lucina1.png",
+    "generic_2a1.png",
+    "lucina2.png",
+    "generic_2a2.png",
+    "generic_2a2.png",
+    "generic_2a3.png",
+    "none",
+    "lucina5.png",
+    "werm.jpeg",
+    "none",
+    "none",
+    "none",
+    "generic_2a3.png",
+    "generic_2a2.png",
+    "none"
   ],
 
   "background": "__destroyed_camp.jpeg",

@@ -14,7 +14,10 @@
   ],
 
   "sprite": [
-    ""
+    "lucina4.png",
+    "worm.jpeg",
+    "none",
+    "lucina5.png"
   ],
 
   "background": "__other_planet.jpeg",

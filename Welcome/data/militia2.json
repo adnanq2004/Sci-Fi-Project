@@ -24,7 +24,15 @@
   ],
 
   "sprite": [
-    ""
+    "gaius1.png",
+    "gaius2.png",
+    "lucina1.png",
+    "gaius2.png",
+    "gaius4.png",
+    "gaius2.png",
+    "gaius2.png",
+    "lucina4.png",
+    "gaius4.png"
   ],
 
   "background": "__camp.jpg",

@@ -16,7 +16,11 @@
   ],
 
   "sprite": [
-    ""
+    "worm.jpeg",
+    "lucina3.png",
+    "none",
+    "none",
+    "none"
   ],
 
   "background": "__red_space.jpg",
