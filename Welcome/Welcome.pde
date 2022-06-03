@@ -17,16 +17,16 @@ void setup() {
   rect(-1,-1,1001,801);
   timenow = second();
   //compiles all of the sound files at the very beginning
-  File folder = new File(dataPath("music"));
-  String[] filenames = folder.list();
-  try {
-    for (int i = 0; i < filenames.length; i++) {
-      sfile = new SoundFile(this, "music/" + filenames[i]);
-    }
-  }
-  catch (Exception e){
-    System.out.println("found an excpetion");
-  }
+  //File folder = new File(dataPath("music"));
+  //String[] filenames = folder.list();
+  //try {
+  //  for (int i = 0; i < filenames.length; i++) {
+  //    sfile = new SoundFile(this, "music/" + filenames[i]);
+  //  }
+  //}
+  //catch (Exception e){
+  //  System.out.println("found an excpetion");
+  //}
   currentlevel = 0.0;  
   source = loadJSONObject("prologue1.json");
   current_scene = new Scene(source);
@@ -172,8 +172,8 @@ void special_ui() {
   fill(255);
   textAlign(CENTER);
   textSize(50);
-  text("Here's a Duck!:", width/2, 180);
-  //duck();
+  text("Here's a picture of a duck!:", width/2, 180);
+  duck();
   
   fill(2,32,53,190);
   rect(820,710,160,80);
@@ -183,9 +183,12 @@ void special_ui() {
   text("BACK", 900, 760);
 }
 
-//void duck() {
-//  //display a duck
-//}
+void duck() {
+  //display a duck
+  PImage img = loadImage("duck.jpg");
+  tint(255);
+  image(img, 150, 200, 700, 450);
+}
 
 void special_hover_ui() {
   if (mouseX > 820 && mouseX < 980 && mouseY > 710 && mouseY < 790) {
