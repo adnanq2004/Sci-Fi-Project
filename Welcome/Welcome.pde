@@ -39,7 +39,7 @@ void draw() {
     //prepares the soundfile and background image
     sfile = new SoundFile(this, "music/" + "menu.mp3");
     sfile.amp(0.2);
-    bimage = loadImage("space.jpg");
+    bimage = loadImage("__space.jpg");
     
     //plays the soundfile
     sfile.play();
@@ -320,34 +320,51 @@ void levels_ui() {
     text("NEXT", 900, 760);
   }
   else {
-    fill(2,32,53,190);
-    rect(20,710,160,80);
-    fill(255);
-    textAlign(CENTER);
-    textSize(30);
-    text("BACK", 100, 760);
-    
-    fill(2,32,53,190);
-    rect(width/2-80,710,160,80);
-    fill(255);
-    textAlign(CENTER);
-    textSize(30);
-    text("MENU", width/2, 760);
-    
-    fill(2,32,53,190);
-    rect(20,10,400,80);
-    fill(255);
-    textAlign(CENTER);
-    textSize(30);
-    text(current_scene.endings.get(0).get(1), 220, 60);
-    
-    if (current_scene.endings.size() > 1) {
+    if (current_scene.endings.size() == 0) {
       fill(2,32,53,190);
-      rect(580,10,400,80);
+      rect(20,710,160,80);
       fill(255);
       textAlign(CENTER);
       textSize(30);
-      text(current_scene.endings.get(1).get(1), 780, 60);
+      text("BACK", 100, 760);
+      
+      fill(2,32,53,190);
+      rect(width/2-80,710,160,80);
+      fill(255);
+      textAlign(CENTER);
+      textSize(30);
+      text("MENU", width/2, 760);
+    }
+    else {
+      fill(2,32,53,190);
+      rect(20,710,160,80);
+      fill(255);
+      textAlign(CENTER);
+      textSize(30);
+      text("BACK", 100, 760);
+      
+      fill(2,32,53,190);
+      rect(width/2-80,710,160,80);
+      fill(255);
+      textAlign(CENTER);
+      textSize(30);
+      text("MENU", width/2, 760);
+      
+      fill(2,32,53,190);
+      rect(20,10,400,80);
+      fill(255);
+      textAlign(CENTER);
+      textSize(30);
+      text(current_scene.endings.get(0).get(1), 220, 60);
+      
+      if (current_scene.endings.size() > 1) {
+        fill(2,32,53,190);
+        rect(580,10,400,80);
+        fill(255);
+        textAlign(CENTER);
+        textSize(30);
+        text(current_scene.endings.get(1).get(1), 780, 60);
+      }
     }
   }
 }
@@ -487,6 +504,64 @@ void levels_hover_ui() {
   }
 }
 
-//void mousePressed() {
-//  println("{"+mouseX+", "+mouseY+"}");
-//}
+void mousePressed() {
+  //if mousepressed during menu_hover
+  if (currentlevel == 0.2) {
+    if (mouseX > 450 && mouseX < 550 && mouseY < 300 && mouseY > 200) {
+      if (sfile.isPlaying()) {
+        sfile.stop();
+      }
+      currentlevel = 1.0;
+      current_section = 0;
+    }
+    else if (mouseX > 420 && mouseX < 580 && mouseY < 450 && mouseY > 350) {
+      currentlevel = 0.3;
+    }
+    else if (mouseX > 450 && mouseX < 550 && mouseY < 600 && mouseY > 500) {
+      exit();
+    }
+  }
+  //if mousepressed during special_hover
+  if (currentlevel == 0.4) {
+    if (mouseX > 820 && mouseX < 980 && mouseY > 710 && mouseY < 790) {
+      currentlevel = 0.1;
+    }
+  }
+  //if mousepressed during level_hover
+  if (currentlevel == 1.2) {
+    if (mouseX > 20 && mouseX < 180 && mouseY > 710 && mouseY < 790) {
+      if (current_section > 0) {
+        current_section -= 1;
+        currentlevel = 1.0;
+      }
+    }
+  }
+  else if (mouseX>width/2-80 && mouseX < width/2+80 && mouseY > 710 && mouseY < 790) {
+    if (sfile.isPlaying()) {
+      sfile.stop();
+    }
+    currentlevel = 0.0;
+  }
+  else if (mouseX > 820 && mouseX < 980 && mouseY > 710 && mouseY < 790 && !(current_section == max_section-1)) {
+    current_section += 1;
+    currentlevel = 1.0;
+  }
+  else if (mouseX > 20 && mouseX < 420 && mouseY > 10 && mouseY < 90 && (current_section == max_section-1)) {
+    source = loadJSONObject(current_scene.endings.get(0).get(0));
+    current_section = 0;
+    currentlevel = 1.0;
+    current_scene = new Scene(source);
+    if (sfile.isPlaying()) {
+      sfile.stop();
+    }
+  }
+  else if (mouseX > 580 && mouseX < 980 && mouseY > 10 && mouseY < 90 && (current_scene.endings.size() > 1) && (current_section == max_section-1)) {
+    source = loadJSONObject(current_scene.endings.get(1).get(0));
+    current_section = 0;
+    currentlevel = 1.0;
+    current_scene = new Scene(source);
+    if (sfile.isPlaying()) {
+      sfile.stop();
+    }
+  }
+}
