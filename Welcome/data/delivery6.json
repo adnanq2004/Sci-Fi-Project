@@ -40,7 +40,23 @@
   ],
 
   "sprite": [
-    ""
+    "none",
+    "lucina1.png",
+    "lucina2.png",
+    "none",
+    "gaius3.png",
+    "lucina3.png",
+    "gaius5.png",
+    "lucina4.png",
+    "gaius5.png",
+    "lucina5.png",
+    "gaius4.png",
+    "lucina3.png",
+    "gaius3.png",
+    "lucina4.png",
+    "gaius3.png",
+    "lucina2.png",
+    "gaius5.png"
   ],
 
   "background": "__street2.png",

@@ -12,7 +12,9 @@
   ],
 
   "sprite": [
-    ""
+    "lucina1.png",
+    "gregor3.png",
+    "gregor5.png"
   ],
 
   "background": "__street.jpeg",

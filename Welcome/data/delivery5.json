@@ -1,8 +1,7 @@
 {
   "dialogue": [
-    ["After Spirit lands on Exus, she heads", "straight to the place Shandy told her of."],
-    ["She then looks for someone who fits Shandy's description."],
-    ["And by chance she sees him at the marketplace..."],
+    ["After Spirit lands on Exus, she heads", "straight to the place Shandy told her about."],
+    ["She looks for someone who fits Shandy's description", "and by chance she sees him at the marketplace..."],
     ["Oi, What do you think you're doing?", "How dare you get in the way of the soldiers of the Empire!"],
     ["Oh, I'm so sorry, officer. My foot must have slipped."],
     ["Why you..."],
@@ -14,11 +13,10 @@
     ["What was that?!"],
     ["!"],
     ["Spirit watches the two run away, and prepares to run away herself."],
-    ["Hey, you, stop!"]
+    ["Hey, you, stop! Get back here!"]
   ],
 
   "character": [
-    "Narrator",
     "Narrator",
     "Narrator",
     "Soldier",
@@ -36,13 +34,24 @@
   ],
 
   "sprite": [
-    ""
+    "none",
+    "none",
+    "generic_a1.png",
+    "gaius2.png",
+    "generic_a2.png",
+    "none",
+    "none",
+    "none",
+    "lucina5.png",
+    "generic_a2.png",
+    "gaius1.png",
+    "none",
+    "generic_a1.png"
   ],
 
   "background": "__market.jpg",
 
   "music": [
-    ["none"],
     ["none"],
     ["none"],
     ["battle1.mp3", "l"],

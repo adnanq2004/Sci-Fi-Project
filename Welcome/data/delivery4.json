@@ -24,7 +24,15 @@
   ],
 
   "sprite": [
-    ""
+    "none",
+    "none",
+    "none",
+    "lucina2.png",
+    "none",
+    "lucina5.png",
+    "none",
+    "none",
+    "lucina1.png"
   ],
 
   "background": "__red_space.jpg",

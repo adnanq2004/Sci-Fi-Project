@@ -16,7 +16,11 @@
   ],
 
   "sprite": [
-    ""
+    "none",
+    "none",
+    "lucina1.png",
+    "lucina4.png",
+    "lucina1.png"
   ],
 
   "background": "__room.jpeg",

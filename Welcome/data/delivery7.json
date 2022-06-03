@@ -50,7 +50,26 @@
   ],
 
   "sprite": [
-    ""
+    "none",
+    "gaius3.png",
+    "lucina1.png",
+    "gaius3.png",
+    "lucina1.png",
+    "gaius3.png",
+    "gaius3.png",
+    "gaius3.png",
+    "lucina1.png",
+    "gaius5.png",
+    "gaius5.png",
+    "lucina3.png",
+    "gaius3.png",
+    "lucina3.png",
+    "gaius5.png",
+    "gaius3.png",
+    "gaius2.png",
+    "gaius4.png",
+    "gaius5.png",
+    "gaius5.png"
   ],
 
   "background": "__camp.jpeg",

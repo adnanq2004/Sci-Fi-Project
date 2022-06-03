@@ -36,7 +36,21 @@
   ],
 
   "sprite": [
-    ""
+    "none",
+    "none",
+    "none",
+    "chrom1.png",
+    "lucina3.png",
+    "libra1.png",
+    "chrom1.png",
+    "lucina3.png",
+    "chrom1.png",
+    "libra3.png",
+    "lucina3.png",
+    "libra3.png",
+    "lucina3.png",
+    "chrom2.png",
+    "lucina3.png"
   ],
 
   "background": "__room.jpeg",

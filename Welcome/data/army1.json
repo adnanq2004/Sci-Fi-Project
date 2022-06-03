@@ -22,7 +22,14 @@
   ],
 
   "sprite": [
-    ""
+    "lucina1.png",
+    "vaike3.png",
+    "none",
+    "none",
+    "none",
+    "none",
+    "cordelia3.png",
+    "none"
   ],
 
   "background": "__street.png",

@@ -32,7 +32,19 @@
   ],
 
   "sprite": [
-    ""
+    "none",
+    "lucina4.png",
+    "gregor3.png",
+    "gregor1.png",
+    "gregor2.png",
+    "lucina1.png",
+    "gregor1.png",
+    "lucina2.png",
+    "gregor5.png",
+    "lucina5.png",
+    "gregor3.png",
+    "none",
+    "gregor4.png"
   ],
 
   "background": "__alley.jpeg",
