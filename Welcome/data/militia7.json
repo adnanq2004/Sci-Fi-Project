@@ -14,10 +14,10 @@
     ["Tom glowed, and suddenly all the Empire ships and troops", "rose into the air. They tried to move,", "attack, do anything. But they couldn't."],
     ["Mmnnnnnnnnnrrrrrrrrrrrrr..."],
     ["Tom brought them all together into a sphere.", "Then, he increased his power, and crushed them."],
-    ["Their screams filled the air as their bones broke and organs ruptured.", "None of the Militia forces moved.", "They only watched until the last of the screams died out."],
-    ["Once it all came to an end, and the screams ended", "Tom dropped the ball of bodies and metals from the air."],
-    ["Mrrn?"],
-    ["He turned to Spirit, for praise."],
+    ["Their screams filled the air as their bones broke and organs ruptured.", "None of the Militia forces moved either.", "They only watched the destruction before them."],
+    ["Once the screams finally died down, Tom dropped", "the ball of bodies and metals from the air."],
+    ["Mnnnpp...Mrrn?"],
+    ["Tom was exhausted after his display of power.", "He turned to Spirit, looking for praise."],
     ["..."],
     ["But she had none to give."],
     ["Instead, she felt sick at what she just watched.", "She turned around and emptied her stomach."],
@@ -50,14 +50,35 @@
     "Narrator"
   ],
 
-  "background": "__destroyed_camp.jpeg",
+  "background": "__destroying_camp.jpeg",
 
   "music": [
-    []
+    ["none"],
+    ["none"],
+    ["battle2.mp3", "l"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["stop"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["screams.mp3", "l"],
+    ["stop"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"]
   ],
 
   "endings": [
-    []
+    ["militia8.json", "Later..."]
   ]
 
 }
