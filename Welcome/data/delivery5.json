@@ -17,7 +17,6 @@
     ["Hey, you, stop!"]
   ],
 
-
   "character": [
     "Narrator",
     "Narrator",
@@ -34,6 +33,10 @@
     "???",
     "Narrartor",
     "Soldier"
+  ],
+
+  "sprite": [
+    ""
   ],
 
   "background": "__market.jpg",

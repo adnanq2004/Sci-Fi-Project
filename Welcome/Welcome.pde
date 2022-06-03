@@ -5,6 +5,7 @@ double currentlevel;
 int timenow;
 SoundFile sfile;
 PImage bimage;
+PImage sprite;
 PFont mono;
 Scene current_scene;
 JSONObject source;
@@ -17,16 +18,16 @@ void setup() {
   rect(-1,-1,1001,801);
   timenow = second();
   //compiles all of the sound files at the very beginning
-  //File folder = new File(dataPath("music"));
-  //String[] filenames = folder.list();
-  //try {
-  //  for (int i = 0; i < filenames.length; i++) {
-  //    sfile = new SoundFile(this, "music/" + filenames[i]);
-  //  }
-  //}
-  //catch (Exception e){
-  //  System.out.println("found an excpetion");
-  //}
+  File folder = new File(dataPath("music"));
+  String[] filenames = folder.list();
+  try {
+    for (int i = 0; i < filenames.length; i++) {
+      sfile = new SoundFile(this, "music/" + filenames[i]);
+    }
+  }
+  catch (Exception e){
+    System.out.println("found an excpetion");
+  }
   currentlevel = 0.0;  
   source = loadJSONObject("prologue1.json");
   current_scene = new Scene(source);
@@ -172,7 +173,7 @@ void special_ui() {
   fill(255);
   textAlign(CENTER);
   textSize(50);
-  text("Here's a picture of a duck!:", width/2, 180);
+  text("Here's a picture of a duck!", width/2, 180);
   duck();
   
   fill(2,32,53,190);
@@ -248,6 +249,13 @@ void levels_ui() {
   fill(255);
   textAlign(CENTER);
   text(current_scene.characters.get(current_section),120,height/2+60);
+  
+  //display sprite.
+  if (!current_scene.sprites.get(current_section).equals("none")) {
+    sprite = loadImage("sprites/"+current_scene.sprites.get(current_section));
+    tint(255);
+    image(sprite,230,height/2-100,200,200);
+  }
   
   if (!(current_section == max_section-1)) {
     fill(2,32,53,190);

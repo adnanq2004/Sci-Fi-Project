@@ -7,13 +7,16 @@
     ["Just wait for me dad. I'll be done in no time..."]
   ],
 
-
   "character": [
     "Narrator",
     "Narrator",
     "Spirit",
     "Spirit",
     "Spirit"
+  ],
+
+  "sprite": [
+    ""
   ],
 
   "background": "__room.jpeg",

@@ -10,7 +10,6 @@
     ["The last thing Spirit sees is the gun pointed", "at her face, before Taquil pulls the trigger."]
   ],
 
-
   "character": [
     "Spirit",
     "Shoju",
@@ -20,6 +19,10 @@
     "Narrator",
     "Taquil",
     "Narrator"
+  ],
+
+  "sprite": [
+    ""
   ],
 
   "background": "__street.png",

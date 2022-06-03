@@ -21,6 +21,10 @@
     "Narrator"
   ],
 
+  "sprite": [
+    ""
+  ],
+
   "background": "__camp.jpg",
 
   "music": [

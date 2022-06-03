@@ -13,6 +13,13 @@
     "Narrator"
   ],
 
+  "sprite": [
+    "vaike4.png",
+    "none",
+    "none",
+    "none"
+  ],
+
   "background": "__street.jpeg",
 
   "music": [

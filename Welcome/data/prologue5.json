@@ -12,6 +12,12 @@
     "Spirit"
   ],
 
+  "sprite": [
+    "lucina2.png",
+    "gregor4.png",
+    "lucina1.png"
+  ],
+
   "background": "__street.jpeg",
 
   "music": [

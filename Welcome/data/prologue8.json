@@ -35,6 +35,24 @@
     "Spirit"
   ],
 
+  "sprite": [
+    "none",
+    "lucina2.png",
+    "vaike3.png",
+    "lucina3.png",
+    "lucina3.png",
+    "vaike4.png",
+    "lucina1.png",
+    "vaike2.png",
+    "lucina5.png",
+    "vaike1.png",
+    "vaike3.png",
+    "lucina2.png",
+    "lucina4.png",
+    "vaike1.png",
+    "lucina2.png"
+  ],
+
   "background": "__street.jpeg",
 
   "music": [

@@ -50,6 +50,10 @@
     "Narrator"
   ],
 
+  "sprite": [
+    ""
+  ],
+
   "background": "__destroying_camp.jpeg",
 
   "music": [

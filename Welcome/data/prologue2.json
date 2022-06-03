@@ -37,6 +37,25 @@
     "Spirit"
   ],
 
+  "sprite": [
+    "lucina3.png",
+    "cordelia3.png",
+    "lucina1.png",
+    "cordelia5.png",
+    "cordelia5.png",
+    "cordelia3.png",
+    "lucina2.png",
+    "cordelia5.png",
+    "lucina5.png",
+    "lucina2.png",
+    "cordelia5.png",
+    "lucina5.png",
+    "cordelia3.png",
+    "cordelia5.png",
+    "lucina1.png",
+    "lucina3.png"
+  ],
+
   "background": "__space_asteroids.jpg",
 
   "music": [

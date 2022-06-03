@@ -1,6 +1,6 @@
 {
   "dialogue": [
-    ["As Spirit walk into the job office,", "she can't help but notice how empty it was."],
+    ["As Spirit walked into the job office,", "she couldn't help but notice how empty it was."],
     ["Hello? Toni? I came by to hear about that job you mentioned?"],
     ["Oh, Spirit! I’m glad you’re here,", "do you mind coming into the back room?"],
     ["Spirit follows Toni's voice to a room in the back", "and sees the woman from the other day."],
@@ -9,11 +9,10 @@
     ["Perfect. Allow me to formally introduce myself."],
     ["My name is Tequia, a Sergeant First Class", "of the Empire's fourth platoon."],
     ["I'm here to offer you the same thing as yesterday.", "I have a position that needs to be filled."],
-    ["You're only task would be flying", "infantry transport ships, hardware ships, and cargo ships."],
+    ["You're only tasks would be flying", "infantry transport ships, hardware ships, and cargo ships."],
     ["It's not that dangerous and, because of your reputation,", "I can promise you better than average pay."],
     ["So, those are my conditions. Do you accept?"]
   ],
-
 
   "character": [
     "Narrator",
@@ -28,6 +27,21 @@
     "Tequia",
     "Tequia",
     "Tequia"
+  ],
+
+  "sprite": [
+    "none",
+    "lucina1.png",
+    "none",
+    "none",
+    "cordelia1.png",
+    "henry5.png",
+    "cordelia3.png",
+    "cordelia4.png",
+    "cordelia4.png",
+    "cordelia4.png",
+    "cordelia1.png",
+    "cordelia5.png"
   ],
 
   "background": "__backroom.jpeg",

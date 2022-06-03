@@ -35,6 +35,10 @@
     "Spirit"
   ],
 
+  "sprite": [
+    ""
+  ],
+
   "background": "__room.jpeg",
 
   "music": [

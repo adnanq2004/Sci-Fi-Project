@@ -14,6 +14,13 @@
     "???"
   ],
 
+  "sprite": [
+    "none",
+    "gregor5.png",
+    "lucina4.png",
+    "gregor5.png"
+  ],
+
   "background": "__street.jpeg",
 
   "music": [
