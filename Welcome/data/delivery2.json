@@ -1,6 +1,6 @@
 {
   "dialogue": [
-    ["Spirit followed the shady looking man to an alley."],
+    ["Spirit follows the shady looking man to an alley."],
     ["Well, I've followed you. Now, tell me", "who you are and more about this job."],
     ["Haha, good to see you're eager, kid.", "You can call me 'Shandy'."],
     ["Like I said before, it's a delivery job.", "My people have certain...packages that we need delivered."],
@@ -8,13 +8,12 @@
     ["Where exactly do I have to go?"],
     ["You'd need to go to planet Exus,", "and find a certain person in the capital."],
     ["...Isn't that planet covered by an intense asteroid field this year?"],
-    ["Yeah, think you can't do the job?"],
-    ["Please, you think a asteroid field is enough to stop me?", "Your only concern should be how much you're paying me for it."],
-    ["Haha, I like your attitude.", "Let's get you a contract drafted."],
-    ["The two spent an hour drafting a contract, before both were finally satisfied.", "Spirit made sure she got enough to cover the treatment."],
+    ["Yeah, is that going to affect your performance?"],
+    ["Please, you think an asteroid field is enough to stop me?", "You should only be worried about how much you're paying me for it."],
+    ["Haha, I like your attitude. Let's get your contract drafted."],
+    ["The two spend an hour drafting a contract, before both were finally satisfied.", "Spirit made sure she got enough to cover the treatment."],
     ["Alright, I think we can agree to that.", "Now, get a move on, you have a job to do!"]
   ],
-
 
   "character": [
     "Narrator",

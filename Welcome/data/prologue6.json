@@ -1,6 +1,6 @@
 {
   "dialogue": [
-    ["As Spirit walked into the job office,", "she couldn't help but notice how empty it was."],
+    ["As Spirit walk into the job office,", "she can't help but notice how empty it was."],
     ["Hello? Toni? I came by to hear about that job you mentioned?"],
     ["Oh, Spirit! I’m glad you’re here,", "do you mind coming into the back room?"],
     ["Spirit follows Toni's voice to a room in the back", "and sees the woman from the other day."],
@@ -10,7 +10,7 @@
     ["My name is Tequia, a Sergeant First Class", "of the Empire's fourth platoon."],
     ["I'm here to offer you the same thing as yesterday.", "I have a position that needs to be filled."],
     ["You're only task would be flying", "infantry transport ships, hardware ships, and cargo ships."],
-    ["It's honestly not even that dangerous and, because of your reputation,", "I can promise you better than average pay."],
+    ["It's not that dangerous and, because of your reputation,", "I can promise you better than average pay."],
     ["So, those are my conditions. Do you accept?"]
   ],
 

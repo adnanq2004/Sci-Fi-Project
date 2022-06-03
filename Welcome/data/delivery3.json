@@ -1,10 +1,10 @@
 {
   "dialogue": [
     ["Spirit returned home to prepare for the journey to Exus."],
-    ["After letting Toni know she won't need the job,", "she checks the condition of her space vehicle and stocks on food."],
+    ["After letting Toni know she won't need the job,", "she checks the condition of her ship and stocks on food."],
     ["Alright, I'm set."],
-    ["Since I got this job, I need to do it right!"],
-    ["And once its over, ", "I never would've accepted it..."]
+    ["Since I got this job, I need to do it right!", "And once its over, my dad will be healthy again..."],
+    ["Just wait for me dad. I'll be done in no time..."]
   ],
 
 

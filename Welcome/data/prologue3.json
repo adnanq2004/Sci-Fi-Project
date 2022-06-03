@@ -2,7 +2,7 @@
   "dialogue": [
     ["In Spirit's house."],
     ["I'm home!"],
-    ["Spirit walks deeper into the house,", "and enters a bedroom."],
+    ["Spirit walks deeper into the house, and enters a bedroom."],
     ["There, a man is sleeping peacefully on a bed.", "Medical supplies and a heart monitor cocoon him."],
     ["Hey, dad, today was such a great day!", "Yknow that galactic circuit? The Scelerisque Spatium?"],
     ["Guess what. Your daugther won it!", "You should've seen all the betters in the stands,", "they were so shocked by a newbie winning the whole thing! Hah!"],
@@ -104,7 +104,7 @@
     ["none"],
     ["door.mp3"],
     ["none"],
-    ["none"],
+    ["intense.mp3", "l"],
     ["none"],
     ["none"],
     ["none"],

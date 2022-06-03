@@ -6,10 +6,9 @@
     ["Hey, easy now."],
     ["I think you’ll be quite interested in what I’m about to say."],
     ["Have you ever wanted to be part of something bigger than yourself?", "Sure, running circuits like this is all fine and good, but what if-"],
-    ["Sorry, I'll cut you off there."],
-    ["I’m not looking to get involved in the war."],
+    ["Sorry, I'll cut you off there.", "I’m not looking to get involved in the war."],
     ["I’m surprised you could tell what I was going to ask."],
-    ["Well, you aren’t the first person to try and recruit me", "after being wowed by my racing skills.", "I can’t exactly blame you for it."],
+    ["You aren’t the first person to try and recruit me", "after being wowed by my racing skills.", "Well, I can’t exactly blame you for it."],
     ["Anyway, I’m not looking to risk my life for some stupid war."],
     ["Oh, what if I offered you double whatever you made", "in that last race upfront? And a just as good payroll", "once you’re actually on the job, I promise."],
     ["Sorry, even then I don’t agree with the principles", "The Empire's stood for lately, so I’ll pass."],
@@ -27,7 +26,6 @@
     "???",
     "???",
     "Spirit",
-    "Spirit",
     "???",
     "Spirit",
     "Spirit",
@@ -42,7 +40,6 @@
   "background": "__space_asteroids.jpg",
 
   "music": [
-    ["none"],
     ["none"],
     ["none"],
     ["none"],

@@ -2,8 +2,8 @@
   "dialogue": [
     ["No thanks. I'm here for a job. Nothing more."],
     ["Yeah, that's fair. Bit of a shame,", "but I can't fault you for it."],
-    ["Take care on your way back!", "And if you ever need a quick job", "don't be afraid to find Shandy."],
-    ["He'll be real helpful, I promise!"],
+    ["If you ever need a quick job", "find Shandy, he'll connect you to me."],
+    ["Take care!"],
   ],
 
   "character": [

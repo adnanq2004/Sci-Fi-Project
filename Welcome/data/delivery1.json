@@ -5,7 +5,6 @@
     ["Follow me, let's talk somewhere more private."]
   ],
 
-
   "character": [
     "Spirit",
     "???",
@@ -15,7 +14,7 @@
   "background": "__street.jpeg",
 
   "music": [
-    ["victory.mp3", "l"],
+    ["victory.mp3"],
     ["none"],
     ["none"]
   ],

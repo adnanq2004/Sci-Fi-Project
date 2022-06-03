@@ -6,8 +6,8 @@
     ["Cool, so what do I do now?"],
     ["Well, now..."],
     ["We celebrate your joining us!"],
-    ["Whisk grabbed the other members of the Militia and", "together they all welcomed Spirit into their fold."],
-    ["The day passed with celebration..."]
+    ["Whisk grabs the other members of the Militia and", "together they all welcome Spirit into their fold."],
+    ["The day passes filled with celebration..."]
   ],
 
   "character": [
@@ -24,7 +24,7 @@
   "background": "__camp.jpg",
 
   "music": [
-    ["victory.mp3", "l"],
+    ["victory.mp3"],
     ["none"],
     ["none"],
     ["none"],
