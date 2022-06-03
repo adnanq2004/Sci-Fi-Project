@@ -35,10 +35,24 @@
     "Spirit"
   ],
 
-  "background": "",
+  "background": "__room.png",
 
   "music": [
-    []
+    ["none"],
+    ["none"],
+    ["happy.mp3"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"]
   ],
 
   "endings": [

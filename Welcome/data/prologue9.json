@@ -14,7 +14,7 @@
     "Narrator"
   ],
 
-  "background": "street.jpg",
+  "background": "__street.jpg",
 
   "music": [
     ["none"],

@@ -18,7 +18,7 @@
     "Spirit"
   ],
 
-  "background": "red_space.jpg",
+  "background": "__red_space.jpg",
 
   "music": [
     ["intense.mp3", "l"],

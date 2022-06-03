@@ -1,0 +1,46 @@
+{
+  "dialogue": [
+    ["Spirit began flying towards Planet Molotov."],
+    ["Hmm...this shouldn't be too long of a trip.", "I think I can make it in a day."],
+    ["But suddenly, space bullets whizzed past Spirit's vehicle."],
+    ["@#$%&!"],
+    ["A fleet of fighter crafts were flanking Spirit's ship."],
+    ["GAHHH, WHAT DO THEY WANT?!?!"],
+    ["Spirit continued avoiding the bulletfire as best as possible,", "but she couldn't avoid them all."],
+    ["Bullets ripped holes into her ship and damaged it", "so severely that Spirit lost control of it completely."],
+    ["With no say left, she began falling towards the nearest planet."],
+    ["AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH"]
+  ],
+
+  "character": [
+    "Narrator",
+    "Spirit",
+    "Narrator",
+    "Spirit",
+    "Narrator",
+    "Spirit",
+    "Narrator",
+    "Narrator",
+    "Narrator",
+    "Spirit"
+  ],
+
+  "background": "__red_space.jpg",
+
+  "music": [
+    ["none"],
+    ["none"],
+    ["battle.mp3"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"]
+  ],
+
+  "endings": [
+    ["milita4.json", "BRACE FOR IMPACT"]
+  ]
+
+}

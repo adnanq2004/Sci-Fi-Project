@@ -12,10 +12,10 @@
     "???"
   ],
 
-  "background": "street.png",
+  "background": "__street.png",
 
   "music": [
-    ["none"],
+    ["victory.mp3", "l"],
     ["none"],
     ["none"]
   ],

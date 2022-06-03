@@ -1,0 +1,41 @@
+{
+  "dialogue": [
+    ["Okay, I'll take you up on that."],
+    ["Good! I'm glad I read you as the right type of person!"],
+    ["Welcome aboard!"],
+    ["Cool, so what do I do now?"],
+    ["Well, now..."],
+    ["We celebrate your joining us!"],
+    ["Whisk grabbed the other members of the Militia and", "together they all welcomed Spirit into their fold."],
+    ["The day passed with celebration..."]
+  ],
+
+  "character": [
+    "Spirit",
+    "Whisk",
+    "Whisk",
+    "Spirit",
+    "Whisk",
+    "Whisk",
+    "Narrator",
+    "Narrator"
+  ],
+
+  "background": "__camp.jpg",
+
+  "music": [
+    ["victory.mp3", "l"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"]
+  ],
+
+  "endings": [
+    ["milita2", "Next Day."]
+  ]
+
+}

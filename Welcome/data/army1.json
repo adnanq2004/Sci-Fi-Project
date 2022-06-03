@@ -22,7 +22,7 @@
     "Narrator"
   ],
 
-  "background": "street.png",
+  "background": "__street.png",
 
   "music": [
     ["victory.mp3", "l"],

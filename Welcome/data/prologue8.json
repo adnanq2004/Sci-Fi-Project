@@ -1,20 +1,20 @@
 {
   "dialogue": [
     ["Spirit was in low spirits as she left the center."],
-    ["Great, without Toni's help, I need to", "come up with another way to make money."],
+    ["Great, now I need to come up with another way", "to make money without Toni's help.""],
     ["Well, if it isn't Spirit. What's this about you having money problems?"],
-    ["Shoju! What're you doing back in town?", "I thought you went off to the war,", "looking for your 'guts or glory'."],
+    ["Shoju! What're you doing back in town?", "I thought you went off to the war, looking for your 'guts or glory'."],
     ["What, did you come back crying your pants off,", "tail between your legs scared?"],
-    ["Ha ha, very funny. I'll have you know,", "I'm a valued elite of the Army."],
+    ["Ha ha, very funny. I'll have you know", "I'm a valued elite of the Army."],
     ["Guess the Army's really lacking in personnel..."],
     ["...Well, you're not wrong there.", "That's actually what I wanted to talk to you about."],
     ["Huh?"],
-    ["You're having your 'money problems', and the Army is recruiting."],
-    ["You could run flier jobs, couriering goods and messages.", "You’re guaranteed a good wage because of your reputation."],
+    ["You're having your 'money problems', right?", "Well, the Army's actually recruiting."],
+    ["You could run flier jobs, couriering goods and messages.", "You’re guaranteed a good wage if you live up to your reputation."],
     ["Jeez, here we are, meeting again in who knows how long", "and you’re trying to sell me on that stupid war?"],
     ["I just, I dont know, I really dont want to be part of it all…"],
     ["Come on, you said you're strapped for cash, right?", "Do you really think you can afford to reject this?"],
-    ["ugh..."]
+    ["Ugh..."]
   ],
 
 
@@ -36,7 +36,7 @@
     "Spirit"
   ],
 
-  "background": "street.jpg",
+  "background": "__street.jpg",
 
   "music": [
     ["none"],

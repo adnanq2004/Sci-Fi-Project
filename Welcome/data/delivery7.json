@@ -11,7 +11,7 @@
     ["Huh..."],
     ["It was Shandy who hired you, right?", "He sent me a telegram about it earlier."],
     ["Sorry, you must've been worried about", "what stuff you were actually delivering!"],
-    ["I can't deny that. He was really shady when he came up to me."],
+    ["I can't deny that. He was kind of scary when he came up to me."],
     ["Haha. Here, I should give you the rest of your payment."],
     ["Thanks."],
     ["Actually...If you're up for it,", "we could use more of your help."],
@@ -41,7 +41,7 @@
     "Whisk"
   ],
 
-  "background": "camp.jpg",
+  "background": "__camp.jpg",
 
   "music": [
     ["village.mp3", "l"],

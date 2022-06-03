@@ -13,8 +13,9 @@
     ["But blasting ahead in first place is…"],
     ["Hah, left all those losers in the dust!"],
     ["The Spry Spirytus!"],
-    ["They're the youngest blackhorse we've seen all season!", "They caused quite the upset in this year's circuit,", "coming out of nowhere and winning race after race!"],
-    ["That's it, keep singing my praises.", "Hell yeah, I’m gonna win this thing!"],
+    ["They're the youngest blackhorse we've seen all season!", "Barely 19 and yet already competing with the best!"],
+    ["They caused quite the upset in this year's circuit,", "coming out of nowhere and winning race after race!"],
+    ["That's it, keep singing my praises.", "Hell yeah, I’m so gonna win this thing!"],
     ["The lead racers are now reaching the finish line!", "Second and Third are neck-and-neck, but the winner is…"],
     ["The Spry Spirytus!!"],
     ["Wooo!!"],
@@ -36,6 +37,7 @@
     "Announcer",
     "Announcer",
     "Announcer",
+    "Announcer",
     "???",
     "Announcer",
     "Announcer",
@@ -49,7 +51,7 @@
     "???"
   ],
 
-  "background": "space_asteroids.jpg",
+  "background": "__space_asteroids.jpg",
 
   "music": [
     ["none"],
@@ -58,6 +60,7 @@
     ["none"],
     ["bang.mp3"],
     ["racing.mp3", "l"],
+    ["none"],
     ["none"],
     ["none"],
     ["none"],

@@ -1,7 +1,7 @@
 {
   "dialogue": [
     ["Sorry, I'm not interested."],
-    ["Hrmph, then get out of my way. I'm a busy man."],
+    ["Hrmph, then get out of my way. Imma busy man."],
     ["I should hurry to the job office."]
   ],
 
@@ -12,7 +12,7 @@
     "Spirit"
   ],
 
-  "background": "street.jpg",
+  "background": "__street.jpg",
 
   "music": [
     ["none"],

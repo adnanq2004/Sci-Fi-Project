@@ -39,7 +39,7 @@
     "Whisk"
   ],
 
-  "background": "street2.png",
+  "background": "__street2.png",
 
   "music": [
     ["none"],

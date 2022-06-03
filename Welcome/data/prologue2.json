@@ -12,7 +12,7 @@
     ["Well, you aren’t the first person to try and recruit me", "after being wowed by my racing skills.", "I can’t exactly blame you for it."],
     ["Anyway, I’m not looking to risk my life for some stupid war."],
     ["Oh, what if I offered you double whatever you made", "in that last race upfront? And a just as good payroll", "once you’re actually on the job, I promise."],
-    ["Sorry, even then I don’t agree with the principles", "The Empire's stood for lately.", "So I’ll pass."],
+    ["Sorry, even then I don’t agree with the principles", "The Empire's stood for lately, so I’ll pass."],
     ["Hah! I didn’t think I’d get rejected so soundly!"],
     ["Well, the offer's still there.", "We're always in need of talented fliers.", "Until we meet again~"],
     ["...That was weird."],
@@ -39,7 +39,7 @@
     "Spirit"
   ],
 
-  "background": "space_asteroids.jpg",
+  "background": "__space_asteroids.jpg",
 
   "music": [
     ["none"],

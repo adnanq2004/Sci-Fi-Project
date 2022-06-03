@@ -2,7 +2,7 @@
   "dialogue": [
     ["Really? What a shame..."],
     ["Oh well, I won't waste any more of your time.", "Excuse me, Toni? Where there any other", "recommendations you had for me for personnel?"],
-    ["Oh, yes, of course. Sorry Spirit. I'll let you know", "if I can find another job for you,", ", but I'm a bit busy now. Come by later?"],
+    ["Oh, yes, of course. Sorry Spirit. I'll let you know", "if I can find another job for you,", "but I'm a bit busy now. Come by later?"],
   ],
 
 
@@ -12,7 +12,7 @@
     "Toni"
   ],
 
-  "background": "backroom.jpeg",
+  "background": "__backroom.jpeg",
 
   "music": [
     ["none"],

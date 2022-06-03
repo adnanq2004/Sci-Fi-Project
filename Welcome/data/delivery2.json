@@ -32,7 +32,7 @@
     "Shandy"
   ],
 
-  "background": "alley.jpg",
+  "background": "__alley.jpg",
 
   "music": [
     ["none"],
