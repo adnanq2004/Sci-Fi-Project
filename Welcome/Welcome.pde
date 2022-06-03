@@ -39,7 +39,7 @@ void draw() {
     //prepares the soundfile and background image
     sfile = new SoundFile(this, "music/" + "menu.mp3");
     sfile.amp(0.2);
-    bimage = loadImage("__space.jpg");
+    bimage = loadImage("backs/__space.jpg");
     
     //plays the soundfile
     sfile.play();
@@ -223,7 +223,7 @@ void levels_startup() {
 }
 
 void levels_ui() {
-  bimage = loadImage(current_scene.background);
+  bimage = loadImage("backs/"+current_scene.background);
   stroke(0);
   background(bimage);
   
@@ -352,7 +352,7 @@ void levels_hover_ui() {
     text("NEXT", 900, 760);
   }
   //check if hovering over option1
-  else if (mouseX > 20 && mouseX < 420 && mouseY > 10 && mouseY < 90 && (current_scene.endings.size() > 1)  && (current_section == max_section-1)) {
+  else if (mouseX > 20 && mouseX < 420 && mouseY > 10 && mouseY < 90 && (current_scene.endings.size() > 0)  && (current_section == max_section-1)) {
     stroke(255);
     fill(55,107,126,190);
     rect(20,10,400,80);
@@ -403,23 +403,27 @@ void mouseClicked() {
   }
   //if mousepressed during level_hover
   if (currentlevel == 1.2) {
+    //back button
     if (mouseX > 20 && mouseX < 180 && mouseY > 710 && mouseY < 790) {
       if (current_section > 0) {
         current_section -= 1;
         currentlevel = 1.0;
       }
     }
+    //menu button
     else if (mouseX>width/2-80 && mouseX < width/2+80 && mouseY > 710 && mouseY < 790) {
       if (sfile.isPlaying()) {
         sfile.stop();
       }
       currentlevel = 0.0;
     }
+    //next button
     else if (mouseX > 820 && mouseX < 980 && mouseY > 710 && mouseY < 790 && !(current_section == max_section-1)) {
       current_section += 1;
       currentlevel = 1.0;
     }
-    else if (mouseX > 20 && mouseX < 420 && mouseY > 10 && mouseY < 90 && (current_section == max_section-1)) {
+    //choice 1
+    else if (mouseX > 20 && mouseX < 420 && mouseY > 10 && mouseY < 90 && (current_scene.endings.size() > 0) && (current_section == max_section-1)) {
       source = loadJSONObject(current_scene.endings.get(0).get(0));
       current_section = 0;
       currentlevel = 1.0;
@@ -428,6 +432,7 @@ void mouseClicked() {
         sfile.stop();
       }
     }
+    //choice 2
     else if (mouseX > 580 && mouseX < 980 && mouseY > 10 && mouseY < 90 && (current_scene.endings.size() > 1) && (current_section == max_section-1)) {
       source = loadJSONObject(current_scene.endings.get(1).get(0));
       current_section = 0;
