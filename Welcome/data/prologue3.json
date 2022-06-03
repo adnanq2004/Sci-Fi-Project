@@ -27,7 +27,7 @@
     ["Wait, here, I got paid a lot from winning that circuit.", "Is it enough for the costs?"],
     ["Spirit shoves a bag of money at Alo."],
     ["I'm sorry, it's not."],
-    ["...But it should be enough", "to start the treatment at least."],
+    ["...But it should be enough to start the treatment at least."],
     ["If you can get me enough to cover the rest within a month,", "I can get your father the full treatment."],
     ["Alright, I'll do my best."],
     ["Good. I'm sorry that I can't do more to help."],
@@ -88,7 +88,7 @@
     "Spirit"
   ],
 
-  "background": "__room.png",
+  "background": "__room.jpeg",
 
   "music": [
     ["none"],
