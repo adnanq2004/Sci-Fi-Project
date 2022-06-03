@@ -16,7 +16,7 @@ void setup() {
   fill(255);
   rect(-1,-1,1001,801);
   timenow = second();
-  //might compile all of the sound files at the very beginning
+  //compiles all of the sound files at the very beginning
   File folder = new File(dataPath("music"));
   String[] filenames = folder.list();
   try {
@@ -130,22 +130,6 @@ void menu_hover_ui() {
     textSize(30);
     text("PLAY", width/2, 260);
     //check if mouse is being pressed
-    if (timenow > millis()) {
-      timenow = millis();
-    }
-    else {
-      if (millis() - timenow >= 100) {
-        if (mousePressed) {
-        
-          if (sfile.isPlaying()) {
-            sfile.stop();
-          }
-          currentlevel = 1.0;
-          current_section = 0;
-        }
-        timenow = millis();
-      }
-    }
   }
   //check if mouse hovering over special button
   else if (mouseX > 420 && mouseX < 580 && mouseY < 450 && mouseY > 350) {
@@ -157,18 +141,6 @@ void menu_hover_ui() {
     textAlign(CENTER);
     textSize(30);
     text("SPECIAL", width/2, 410);
-    //check if mouse is being pressed
-    if (timenow > millis()) {
-      timenow = millis();
-    }
-    else {
-      if (millis() - timenow >= 100) {
-        if (mousePressed) {
-          currentlevel = 0.3;
-        }
-        timenow = millis();
-      }
-    }
   }
   //check if mouse hovering over exit button
   else if (mouseX > 450 && mouseX < 550 && mouseY < 600 && mouseY > 500) {
@@ -181,17 +153,6 @@ void menu_hover_ui() {
     textSize(30);
     text("EXIT", width/2, 560);
     //check if the mouse is being pressed
-    if (timenow > millis()) {
-      timenow = millis();
-    }
-    else {
-      if (millis() - timenow >= 100) {
-        if (mousePressed) {
-          exit();
-        }
-        timenow = millis();
-      }
-    }
   }
   else {
     menu_ui();
@@ -235,18 +196,6 @@ void special_hover_ui() {
     textAlign(CENTER);
     textSize(30);
     text("BACK", 900, 760);
-    
-    if (timenow > millis()) {
-      timenow = millis();
-    }
-    else {
-      if (millis() - timenow >= 100) {
-        if (mousePressed) {
-          currentlevel = 0.1;
-        }
-        timenow = millis();
-      }
-    }
     
   }
   else {
@@ -379,21 +328,7 @@ void levels_hover_ui() {
     textAlign(CENTER);
     textSize(30);
     text("BACK", 100, 760);
-    
-    if (timenow > millis()) {
-      timenow = millis();
-    }
-    else {
-      if (millis() - timenow >= 100) {
-        if (mousePressed) {
-          if (current_section > 0) {
-            current_section -= 1;
-            currentlevel = 1.0;
-          }
-        }
-        timenow = millis();
-      }
-    }    
+      
   }
   //check if hovering over menu
   else if (mouseX>width/2-80 && mouseX < width/2+80 && mouseY > 710 && mouseY < 790) {
@@ -405,20 +340,6 @@ void levels_hover_ui() {
     textSize(30);
     text("MENU", width/2, 760);
     
-    if (timenow > millis()) {
-      timenow = millis();
-    }
-    else {
-      if (millis() - timenow >= 100) {
-        if (mousePressed) {
-          if (sfile.isPlaying()) {
-            sfile.stop();
-          }
-          currentlevel = 0.0;
-        }
-        timenow = millis();
-      }
-    }
   }
   //check if hovering over next
   else if (mouseX > 820 && mouseX < 980 && mouseY > 710 && mouseY < 790 && !(current_section == max_section-1)) {
@@ -429,22 +350,9 @@ void levels_hover_ui() {
     textAlign(CENTER);
     textSize(30);
     text("NEXT", 900, 760);
-    
-    if (timenow > millis()) {
-      timenow = millis();
-    }
-    else {
-      if (millis() - timenow >= 100) {
-        if (mousePressed) {
-          current_section += 1;
-          currentlevel = 1.0;
-        }
-        timenow = millis();
-      }
-    }
   }
   //check if hovering over option1
-  else if (mouseX > 20 && mouseX < 420 && mouseY > 10 && mouseY < 90 && (current_section == max_section-1)) {
+  else if (mouseX > 20 && mouseX < 420 && mouseY > 10 && mouseY < 90 && (current_scene.endings.size() > 1)  && (current_section == max_section-1)) {
     stroke(255);
     fill(55,107,126,190);
     rect(20,10,400,80);
@@ -453,23 +361,6 @@ void levels_hover_ui() {
     textSize(30);
     text(current_scene.endings.get(0).get(1), 220, 60);
     
-    if (timenow > millis()) {
-      timenow = millis();
-    }
-    else {
-      if (millis() - timenow >= 100) {
-        if (mousePressed) {
-          source = loadJSONObject(current_scene.endings.get(0).get(0));
-          current_section = 0;
-          currentlevel = 1.0;
-          current_scene = new Scene(source);
-          if (sfile.isPlaying()) {
-            sfile.stop();
-          }
-        }
-        timenow = millis();
-      }
-    }
   }
   //check if hovering over option2
   else if (mouseX > 580 && mouseX < 980 && mouseY > 10 && mouseY < 90 && (current_scene.endings.size() > 1) && (current_section == max_section-1)) {
@@ -481,30 +372,13 @@ void levels_hover_ui() {
     textSize(30);
     text(current_scene.endings.get(1).get(1), 780, 60);
     
-    if (timenow > millis()) {
-      timenow = millis();
-    }
-    else {
-      if (millis() - timenow >= 100) {
-        if (mousePressed) {
-          source = loadJSONObject(current_scene.endings.get(1).get(0));
-          current_section = 0;
-          currentlevel = 1.0;
-          current_scene = new Scene(source);
-          if (sfile.isPlaying()) {
-            sfile.stop();
-          }
-        }
-        timenow = millis();
-      }
-    }
   }
   else {
     levels_ui();
   }
 }
 
-void mousePressed() {
+void mouseClicked() {
   //if mousepressed during menu_hover
   if (currentlevel == 0.2) {
     if (mouseX > 450 && mouseX < 550 && mouseY < 300 && mouseY > 200) {
@@ -535,33 +409,33 @@ void mousePressed() {
         currentlevel = 1.0;
       }
     }
-  }
-  else if (mouseX>width/2-80 && mouseX < width/2+80 && mouseY > 710 && mouseY < 790) {
-    if (sfile.isPlaying()) {
-      sfile.stop();
+    else if (mouseX>width/2-80 && mouseX < width/2+80 && mouseY > 710 && mouseY < 790) {
+      if (sfile.isPlaying()) {
+        sfile.stop();
+      }
+      currentlevel = 0.0;
     }
-    currentlevel = 0.0;
-  }
-  else if (mouseX > 820 && mouseX < 980 && mouseY > 710 && mouseY < 790 && !(current_section == max_section-1)) {
-    current_section += 1;
-    currentlevel = 1.0;
-  }
-  else if (mouseX > 20 && mouseX < 420 && mouseY > 10 && mouseY < 90 && (current_section == max_section-1)) {
-    source = loadJSONObject(current_scene.endings.get(0).get(0));
-    current_section = 0;
-    currentlevel = 1.0;
-    current_scene = new Scene(source);
-    if (sfile.isPlaying()) {
-      sfile.stop();
+    else if (mouseX > 820 && mouseX < 980 && mouseY > 710 && mouseY < 790 && !(current_section == max_section-1)) {
+      current_section += 1;
+      currentlevel = 1.0;
     }
-  }
-  else if (mouseX > 580 && mouseX < 980 && mouseY > 10 && mouseY < 90 && (current_scene.endings.size() > 1) && (current_section == max_section-1)) {
-    source = loadJSONObject(current_scene.endings.get(1).get(0));
-    current_section = 0;
-    currentlevel = 1.0;
-    current_scene = new Scene(source);
-    if (sfile.isPlaying()) {
-      sfile.stop();
+    else if (mouseX > 20 && mouseX < 420 && mouseY > 10 && mouseY < 90 && (current_section == max_section-1)) {
+      source = loadJSONObject(current_scene.endings.get(0).get(0));
+      current_section = 0;
+      currentlevel = 1.0;
+      current_scene = new Scene(source);
+      if (sfile.isPlaying()) {
+        sfile.stop();
+      }
+    }
+    else if (mouseX > 580 && mouseX < 980 && mouseY > 10 && mouseY < 90 && (current_scene.endings.size() > 1) && (current_section == max_section-1)) {
+      source = loadJSONObject(current_scene.endings.get(1).get(0));
+      current_section = 0;
+      currentlevel = 1.0;
+      current_scene = new Scene(source);
+      if (sfile.isPlaying()) {
+        sfile.stop();
+      }
     }
   }
 }
