@@ -1,9 +1,9 @@
 {
   "dialogue": [
-    ["Psh, fine, have it your way.", "Anyway, I better get going.", "Good luck getting through your junk."],
-    ["After the two said their goodbyes, Spirit went back to looking for work."],
-    ["She spent the next 2 weeks working odd job after job", "but she wasn't able to get the money she needed."],
-    ["Spirit's father ends up dying within 3 weeks."]
+    ["Psh, fine, have it your way. Anyway, I better get going.", "Good luck getting through your junk."],
+    ["After the two said their goodbyes,", "Spirit went back to looking for work."],
+    ["She spent the next month working odd job after job", "but she wasn't able to get the money she needed."],
+    ["Spirit's father ends up succuumbing to Magus."]
   ],
 
 
@@ -14,7 +14,7 @@
     "Narrator"
   ],
 
-  "background": "__street.jpg",
+  "background": "__street.jpeg",
 
   "music": [
     ["none"],

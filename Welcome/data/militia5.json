@@ -1,0 +1,32 @@
+{
+  "dialogue": [
+    ["Mrrrrnpp!"],
+    ["I'm glad you like it.", "Alright, come on. We need to get moving!"],
+    ["The two continued the journey to planet Molotov."],
+    ["This time, Spirit stayed extra vigilant of any attacks", "but no other fleet tried to attack them."],
+    ["The eventually reached the planet without any issues."]
+  ],
+
+  "character": [
+    "Tom",
+    "Spirit",
+    "Narrator",
+    "Narrator",
+    "Narrator"
+  ],
+
+  "background": "__red_space.jpg",
+
+  "music": [
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"]
+  ],
+
+  "endings": [
+    ["militia6", "Enter planet."]
+  ]
+
+}

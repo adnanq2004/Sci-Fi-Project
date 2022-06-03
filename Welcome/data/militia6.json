@@ -1,0 +1,29 @@
+{
+  "dialogue": [
+    ["Okay, now we have to find the camp!"],
+    ["Mrrp!"],
+    ["Once again, Tom started releasing light", "and Spirit had to close her eyes."],
+    ["Whaaaaaaa-"]
+  ],
+
+  "character": [
+    "Spirit",
+    "Tom",
+    "Narrator",
+    "Spirit"
+  ],
+
+  "background": "__other_planet.jpeg",
+
+  "music": [
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"]
+  ],
+
+  "endings": [
+    ["militia7", "AAHHHHHH"]
+  ]
+
+}

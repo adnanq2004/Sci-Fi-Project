@@ -1,7 +1,7 @@
 {
   "dialogue": [
     ["Spirit was in low spirits as she left the center."],
-    ["Great, now I need to come up with another way", "to make money without Toni's help.""],
+    ["Great, now I need to come up with another way", "to make money without Toni's help."],
     ["Well, if it isn't Spirit. What's this about you having money problems?"],
     ["Shoju! What're you doing back in town?", "I thought you went off to the war, looking for your 'guts or glory'."],
     ["What, did you come back crying your pants off,", "tail between your legs scared?"],
@@ -16,7 +16,6 @@
     ["Come on, you said you're strapped for cash, right?", "Do you really think you can afford to reject this?"],
     ["Ugh..."]
   ],
-
 
   "character": [
     "Narrator",
@@ -36,7 +35,7 @@
     "Spirit"
   ],
 
-  "background": "__street.jpg",
+  "background": "__street.jpeg",
 
   "music": [
     ["none"],

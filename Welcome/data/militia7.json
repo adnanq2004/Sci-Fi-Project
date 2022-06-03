@@ -1,0 +1,63 @@
+{
+  "dialogue": [
+    ["When she opened them, they were suddenly", "in the middle of a Militia camp. But..."],
+    ["Oh no..."],
+    ["The warning was too late. The attack had already begun."],
+    ["Wait a minute, those ships..."],
+    ["Spirit recognized the ships that were bombarding", "the camp as models that attacked her."],
+    ["So it was the Empire..."],
+    ["But Spirit was brought back to reality", "when some Empire forces noticed her ship", "suddenly appear out of no where."],
+    ["Crap. $#@#@!$%&#@$!"],
+    ["Spirit grabbed Tom and dove for cover.", "Bullets passed them overhead."],
+    ["Great. Now what're we gonna do?"],
+    ["Mrrrrrrrrrnnnnnnnnn..."],
+    ["Tom glowed, and suddenly all the Empire ships and troops", "rose into the air. They tried to move,", "attack, do anything. But they couldn't."],
+    ["Mmnnnnnnnnnrrrrrrrrrrrrr..."],
+    ["Tom brought them all together into a sphere.", "Then, he increased his power, and crushed them."],
+    ["Their screams filled the air as their bones broke and organs ruptured.", "None of the Militia forces moved.", "They only watched until the last of the screams died out."],
+    ["Once it all came to an end, and the screams ended", "Tom dropped the ball of bodies and metals from the air."],
+    ["Mrrn?"],
+    ["He turned to Spirit, for praise."],
+    ["..."],
+    ["But she had none to give."],
+    ["Instead, she felt sick at what she just watched.", "She turned around and emptied her stomach."],
+    ["Blergh..."],
+    ["The militia soldiers, meanwhile, reorganized their forces and", "assessed damages when they realized the power", "from before wasn't targetting any of them."]
+  ],
+
+  "character": [
+    "Narrator",
+    "Spirit",
+    "Narrator",
+    "Spirit",
+    "Narrator",
+    "Spirit",
+    "Narrator",
+    "Spirit",
+    "Narrator",
+    "Spirit",
+    "Tom",
+    "Narrator",
+    "Tom",
+    "Narrator",
+    "Narrator",
+    "Tom",
+    "Narrator",
+    "Spirit",
+    "Narrator",
+    "Narrator",
+    "Spirit",
+    "Narrator"
+  ],
+
+  "background": "__destroyed_camp.jpeg",
+
+  "music": [
+    []
+  ],
+
+  "endings": [
+    []
+  ]
+
+}
