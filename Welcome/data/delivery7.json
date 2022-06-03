@@ -49,9 +49,10 @@
     "Whisk"
   ],
 
-  "background": "__camp.jpg",
+  "background": "__camp.jpeg",
 
   "music": [
+    ["none"],
     ["village.mp3", "l"],
     ["none"],
     ["none"],
@@ -65,12 +66,11 @@
     ["none"],
     ["none"],
     ["none"],
-    ["none"],
     ["stop"],
     ["none"],
     ["none"],
     ["none"],
-    ["stop"],
+    ["none"],
     ["none"],
     ["none"],
     ["none"]
