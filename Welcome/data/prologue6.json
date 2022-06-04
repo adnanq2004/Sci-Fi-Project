@@ -7,10 +7,10 @@
     ["Oh, Spirit. What a surprise to meet again so soon.", "Are you here because of my request?"],
     ["Actually, Ms. Tequia, I haven't given her the details yet..."],
     ["Perfect. Allow me to formally introduce myself."],
-    ["My name is Tequia, a Sergeant First Class", "of the Empire's fourth platoon."],
+    ["My name is Tequia, the Regal Seargant ", "of the Empire's fourth platoon."],
     ["I'm here to offer you the same thing as yesterday.", "I have a position that needs to be filled."],
     ["You're only tasks would be flying", "infantry transport ships, hardware ships, and cargo ships."],
-    ["It's not that dangerous and, because of your reputation,", "I can promise you better than average pay."],
+    ["Your role has the least danger, and because of your", "reputation I can promise you better than average pay."],
     ["So, those are my conditions. Do you accept?"]
   ],
 
@@ -62,7 +62,7 @@
   ],
 
   "endings": [
-    ["empire.json", "Accept"],
+    ["empire1.json", "Accept"],
     ["prologue7.json", "Reject"]
   ]
 

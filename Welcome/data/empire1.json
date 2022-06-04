@@ -1,0 +1,40 @@
+{
+  "dialogue": [
+    ["Alright, I accept."],
+    ["Wonderful! I have your first job for you already. We need", "to head to planet Regnum, where the Empire is sourced."],
+    ["And from now on, please refer to me as Ms. Tequia."],
+    ["Thank you for your help Toni. You'll receive", "the payment, for this commission on E-pay."],
+    ["Ah, no problem! Have a wonderful day.", "I'll see you later, Spirit."]
+  ],
+
+  "character": [
+    "Spirit",
+    "Tequia",
+    "Tequia",
+    "Tequia",
+    "Toni"
+  ],
+
+  "sprite": [
+    "lucina1.png",
+    "cordelia5.png",
+    "cordelia3.png",
+    "cordelia3.png",
+    "henry3.png"
+  ],
+
+  "background": "__backroom.jpeg",
+
+  "music": [
+    ["victory.mp3"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"]
+  ],
+
+  "endings": [
+    ["empire2.json", "Head to Regnum."]
+  ]
+
+}

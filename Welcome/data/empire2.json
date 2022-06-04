@@ -1,0 +1,68 @@
+{
+  "dialogue": [
+    ["Spirit and Tequia board Tequia's ship and begin the journey to Regnum."],
+    ["Is there anything I should know before we actually reach Regnum?"],
+    ["When we get there, you'll be assigned under my platoon."],
+    ["The Empire's fourth platoon serves serves", "semi-autonomously from the rest of the army."],
+    ["The only power within the Empire that can give us", "orders is her heighness the Empress herself."],
+    ["When we're deployed on the battlefield, we'll be responsible", "for attacking the enemy when they least expect it."],
+    ["For that reason, our troops are fewer in number, but more elite", "than other platoons. We also provide support to other platoons."],
+    ["We used to have a very talented pilot with us, but", "they unfortunately...'retired' a few weeks ago."],
+    ["They were able to fly this ship through streams of bullets,", "through swarms of other ships, past any natural obstructions..."],
+    ["I expect you to live up to their legacy, or even surpass it."],
+    ["Those are big shoes to fill. Don't worry.", "As long as I'm getting paid, I'll suceed them perfectly."],
+    ["I'm glad."]
+  ],
+
+  "character": [
+    "Narrator"
+    "Spirit",
+    "Tequia",
+    "Tequia",
+    "Tequia",
+    "Tequia",
+    "Tequia",
+    "Tequia",
+    "Tequia",
+    "Tequia",
+    "Spirit",
+    "Tequia"
+  ],
+
+  "sprite": [
+    "none",
+    "lucina1.png",
+    "cordelia1.png",
+    "cordelia1.png",
+    "cordelia5.png",
+    "cordelia2.png",
+    "cordelia1.png",
+    "cordelia2.png",
+    "cordelia3.png",
+    "cordelia5.png",
+    "lucina3.png",
+    "cordelia3.png"
+  ],
+
+  "background": "__other_space.jpeg",
+
+  "music": [
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"]
+  ],
+
+  "endings": [
+    ["empire3.json", "Head to Regnum."]
+  ]
+
+}
