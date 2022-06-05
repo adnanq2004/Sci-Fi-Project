@@ -1,0 +1,57 @@
+{
+  "dialogue": [
+    ["The entire fourth platoon successfully returned to Regnum.", "Tequia went to the palace to report to the Empress, and took Spirit along."],
+    ["I see you were successful. Splendid work, as I'd expect of the Regal Sergeant."],
+    ["Thank you your majesty. I'm flattered by your praise."],
+    ["And Spirit. How did you feel after being on your first mission?"],
+    ["It was an interesting experience. Ms. Tequia kept me", "by her side at the base during the actual battle."],
+    ["Flying the platoon ship was also something new. The", "handling was similar to the ships that I'm used to,", "but there was more weight to it that I had to keep in mind..."],
+    ["Oh, I'm sorry, I didn't mean to ramble."],
+    ["Fu, don't worry. Like I thought before, you're proving to be", "an interesting recruit. Hm... I have a proposition."],
+    ["How would you like to be my 'friend'?"]
+  ],
+
+  "character": [
+    "Narrator",
+    "Saki",
+    "Tequia",
+    "Saki",
+    "Spirit",
+    "Spirit",
+    "Spirit",
+    "Saki",
+    "Saki"
+  ],
+
+  "sprite": [
+    "none",
+    "emmeryn5.png",
+    "cordelia5.png",
+    "emmeryn5.png",
+    "lucina1.png",
+    "lucina3.png",
+    "lucina2.png",
+    "emmeryn3.png",
+    "emmeryn3.png"
+  ],
+
+  "background": "__throne.jpeg",
+
+  "music": [
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"]
+  ],
+
+  "endings": [
+    ["empire7.5.json", "Accept"],
+    ["empire8.json", "Reject"]
+  ]
+
+}

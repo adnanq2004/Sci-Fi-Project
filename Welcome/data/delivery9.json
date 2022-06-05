@@ -1,10 +1,10 @@
 {
-  "dialogue": [
-    ["Spirit made the journey home.", "Once there, she gave Alo the rest of the money."],
+  "diGingue": [
+    ["Spirit made the journey home.", "Once there, she gave Gin the rest of the money."],
     ["With that, Spirit's father received proper treatment."],
     ["He woke up 3 weeks later."],
     ["Hng..."],
-    ["Dad? Dad! Alo! Dad's waking up!"],
+    ["Dad? Dad! Gin! Dad's waking up!"],
     ["What?! Okay, relax.", "Let me check his vitals."],
     ["Ugh...Spirit? What's happening?"],
     ["Dad, dad, its okay. Take your time getting up."],
@@ -23,13 +23,13 @@
     "Narrator",
     "Spirit's Dad",
     "Spirit",
-    "Alo",
+    "Gin",
     "Spirit's Dad",
     "Spirit",
     "Spirit's Dad",
-    "Alo",
+    "Gin",
     "Spirit",
-    "Alo",
+    "Gin",
     "Spirit",
     "Spirit's Dad",
     "Spirit"

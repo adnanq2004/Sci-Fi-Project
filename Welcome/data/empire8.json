@@ -1,0 +1,42 @@
+{
+  "dialogue": [
+    ["Oh...how disappointing"],
+    ["I'm sorry, your majesty, but I'd rather you", "not try stealing away my pilot again..."],
+    ["Of course...Now normally I would let you all relax", "after completing a mission, but we received an urgent report."],
+    ["Another unit was assigned to attack Planet Molotov but", "they were struck by some anomaly while fighting the Militia."],
+    ["I want your platoon to provide support for them", "and figure out whatever this 'anomaly' is."],
+    ["Yes, your majesty."]
+  ],
+
+  "character": [
+    "Saki",
+    "Tequia",
+    "Saki",
+    "Saki",
+    "Saki",
+    "Tequia"
+  ],
+
+  "sprite": [
+    "emmeryn2.png",
+    "cordelia2.png",
+    "emmeryn4.png",
+    "emmeryn4.png",
+    "cordelia1.png"
+  ],
+
+  "background": "__throne.jpeg",
+
+  "music": [
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"]
+  ],
+
+  "endings": [
+    ["empire9.json", "Follow Tequia"]
+  ]
+
+}

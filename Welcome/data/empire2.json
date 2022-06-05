@@ -1,6 +1,6 @@
 {
   "dialogue": [
-    ["Spirit and Tequia board Tequia's ship and begin the journey to Regnum."],
+    ["Spirit and Tequia board Spirit's ship and begin the journey to Regnum."],
     ["Is there anything I should know before we actually reach Regnum?"],
     ["When we get there, you'll be assigned under my platoon."],
     ["The Empire's fourth platoon serves serves", "semi-autonomously from the rest of the army."],
@@ -10,7 +10,7 @@
     ["We used to have a very talented pilot with us, but", "they unfortunately...'retired' a few weeks ago."],
     ["They were able to fly this ship through streams of bullets,", "through swarms of other ships, past any natural obstructions..."],
     ["I expect you to live up to their legacy, or even surpass it."],
-    ["Those are big shoes to fill. Don't worry.", "As long as I'm getting paid, I'll suceed them perfectly."],
+    ["Those are big shoes to fill. But don't worry.", "I'll meet your expectations perfectly."],
     ["I'm glad."]
   ],
 
@@ -62,7 +62,7 @@
   ],
 
   "endings": [
-    ["empire3.json", "Head to Regnum."]
+    ["empire3.json", "Go to Regnum."]
   ]
 
 }

@@ -1,0 +1,63 @@
+{
+  "dialogue": [
+    ["Spirit and Tequia walk to the outside of the Throne Room."],
+    ["Enter."],
+    ["I greet your majesty, Empress Saki, the one true ruler of the Empire."],
+    ["Hm..."],
+    ["I see you've gotten youself a new pilot, Tequia.", "She looks familiar. What's your name girlie?"],
+    ["My name is Spirit, your grace."],
+    ["Ah, yes. You've been winning those little racing circuits, galaxy.", "Quite the jump in scale, no? What made you join us?"],
+    ["...I needed money to pay for my father's medical treatment.", "Ms. Tequia happened to offer me this job at the time."],
+    ["My, what a filial daughter! You're quite the admirable one, Spirit!"],
+    ["Now, onto the next matter. Tequia, I want your platoon to advance", "to planet Prohibre and eliminate the Army forces stationed there."],
+    ["Yes, your majesty."]
+  ],
+
+  "character": [
+    "Narrator",
+    "???",
+    "Tequia",
+    "Saki",
+    "Saki",
+    "Spirit",
+    "Saki",
+    "Spirit",
+    "Saki",
+    "Saki",
+    "Tequia"
+  ],
+
+  "sprite": [
+    "none",
+    "none",
+    "cordelia1.png",
+    "emmeryn1.png",
+    "emmeryn5.png",
+    "lucina1.png",
+    "emmeryn3.png",
+    "lucina4.png",
+    "emmeryn3.png",
+    "emmeryn1.png",
+    "cordelia1.png"
+  ],
+
+  "background": "__throne.jpeg",
+
+  "music": [
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"]
+  ],
+
+  "endings": [
+    ["empire5.json", "Leave the Castle."]
+  ]
+
+}
