@@ -32,7 +32,7 @@
     "none"
   ],
 
-  "background": "__camp.jpg",
+  "background": "__camp.jpeg",
 
   "music": [
     ["victory.mp3"],
@@ -46,7 +46,7 @@
   ],
 
   "endings": [
-    ["milita2", "Next Day."]
+    ["militia2.json", "Next Day."]
   ]
 
 }

@@ -1,12 +1,12 @@
 {
   "dialogue": [
     ["Spirit pilots the platoon's ship to Prohibre and ferries", "all the troops to the Empire's hidden base."],
-    ["Tequia orders the captains to organize their squads and within the hour", "the whole platoon is ready to march on the Army encampment."],
+    ["Tequia orders the captains to organize their squads and", "within the hour the whole platoon is ready", "to march on the Army encampment."],
     ["Meanwhile, Tequia, Spirit, and a few others stay at the base."],
     ["We'll stay here and act as a command center. If any squad", "reports information or requests backup, you'll handle it here."],
     ["Understood!"],
     ["Now, the two of us will be waiting around for a bit.", "While I doubt it will happen, stay prepared in case", "we need to make a rapid escape offplanet."],
-    ["Yes, Ms. Tequia. ...Do you mind if I ask some questions while we wait?"],
+    ["Yes, Ms. Tequia. Can I ask some questions while we wait?"],
     ["Depends, what kind of questions?"],
     ["...What's the Empire's goal with all these attacks?", "To what ends are you destroying so many lives?"],
     ["I suppose that's a fair question. It makes sense that", "you'd want to know about your employer, after all."],
@@ -16,7 +16,7 @@
     ["Don't worry, with time I'm sure you'll understand."],
     ["Excuse me, Ms. Tequia! There's a situation we need your help with!"],
     ["Alright, tell me the details immediately!"],
-    ["The platoon steadily finished its attack, until finally overwhelming the enemy.", "After achieving victory, they returned to Regnum."]
+    ["The platoon steadily finished its attack, until finally overwhelming", "the enemy. After achieving victory, they returned to Regnum."]
   ],
 
   "character": [

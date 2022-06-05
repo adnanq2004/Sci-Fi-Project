@@ -2,7 +2,7 @@
   "dialogue": [
     ["Spirit sets out to Exus."],
     ["The trip is short, but the planet is surrounded by an asteroid field."],
-    ["Very soon on the trip, Spirit saw groups of asteroids."],
+    ["Very soon on the trip, Spirit sees clumps of asteroids."],
     ["Already? Well, alright then. Guess I'll just have to sneak by..."],
     ["Spirit narrowly avoids several stray asteroids", "before she's suddenly surrounded by another cluster."],
     ["F***!"],
@@ -35,22 +35,22 @@
     "lucina1.png"
   ],
 
-  "background": "__red_space.jpg",
+  "background": "__green_asteroids.jpeg",
 
   "music": [
     ["none"],
     ["none"],
+    ["battle2.mp3", "l"],
     ["none"],
     ["none"],
     ["none"],
     ["none"],
-    ["none"],
-    ["none"],
+    ["stop"],
     ["none"]
   ],
 
   "endings": [
-    ["delivery5,json", "Deliver the goods."]
+    ["delivery5.json", "Deliver the goods."]
   ]
 
 }

@@ -1,7 +1,7 @@
 {
   "dialogue": [
     ["Tequia's platoon land at the Empire base on Planet Molotov."],
-    ["They follow the same plan as before, Tequia assigns captains to squads", "and has them go out to the battlefield while she stays back."],
+    ["They follow the same plan as before, Tequia assigns captains to", "squads and has them go out to the battlefield", "while she stays back with a few soldiers and Spirit."],
     ["Their forces join with the soldiers that called for backup,", "and they manage to push the Militia back with ease.", "It all seemed to be going perfectly"],
     ["Then the anomaly appeared again. Some unknown power came", "and wiped out a sizeable portion of all combatants", "Empire and Militia alike."],
     ["What the hell was that?!"],
@@ -9,7 +9,7 @@
     ["Dammit, what the hell..."],
     ["Again it struck, destroying more. Then again and again,", "until there were no more Empire soldiers left."],
     ["Dammit! All our soldiers are dead!"],
-    ["Uh captain. There are signs of the anomaly...approaching us!"],
+    ["Um captain. There are signs of the anomaly...approaching us!"],
     ["Oh no!"],
     ["Calm down, dammit! ...Okay, Spirit get on your ship and go bac-"],
     ["Suddenly the roof of the base pried apart", "and the source of their troubles bore its head."],
@@ -18,8 +18,8 @@
     ["Mrrnnnnnnnppppp!"],
     ["Aaaah!"],
     ["The soldiers and Tequia found themselves lifted into the air."],
-    ["Then they were crushed. Their bones churned against each other.", "Blood splurted out from every angle. Spirit could do nothing but watch."],
-    ["Once it was done with them, the creature turned its eyes to Spirit.", "She was lifted into the air against her will."],
+    ["Then they were crushed. Their bones churned against each other.", "Blood splatterd out of their bodies. Spirit could only watch."],
+    ["Once it was done with them, the creature turned its eyes to Spirit.", "She was lifted into the air by some force."],
     ["She felt a sudden pressure on her from all sides,", "in a very painful moment, before it all disappeared."]
   ],
 
@@ -61,9 +61,9 @@
     "none",
     "cordelia2.png",
     "none",
-    "worm.jpeg",
+    "worm.jpg",
     "none",
-    "worm.jpeg",
+    "worm.jpg",
     "none",
     "none",
     "none",
@@ -98,7 +98,6 @@
   ],
 
   "endings": [
-    []
   ]
 
 }

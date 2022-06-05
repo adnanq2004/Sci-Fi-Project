@@ -1,7 +1,7 @@
 {
   "dialogue": [
-    ["The entire fourth platoon successfully returned to Regnum.", "Tequia went to the palace to report to the Empress, and took Spirit along."],
-    ["I see you were successful. Splendid work, as I'd expect of the Regal Sergeant."],
+    ["The entire fourth platoon successfully returned to", "Regnum. Tequia went to the palace to report", "to the Empress, and took Spirit along."],
+    ["I see you were successful. Splendid work, as I'd expect", "of the Regal Sergeant."],
     ["Thank you your majesty. I'm flattered by your praise."],
     ["And Spirit. How did you feel after being on your first mission?"],
     ["It was an interesting experience. Ms. Tequia kept me", "by her side at the base during the actual battle."],

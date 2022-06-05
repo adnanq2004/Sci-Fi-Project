@@ -1,8 +1,8 @@
 {
   "dialogue": [
     ["No thanks. I'm here for a job. Nothing more."],
-    ["Yeah, that's fair. Bit of a shame,", "but I can't fault you for it."],
-    ["If you ever need a quick job", "find Shandy, he'll connect you to me."],
+    ["Yeah, that's fair. Bit of a shame, but I can't fault you."],
+    ["If you ever need a quick job find Shandy, he'll connect you to me."],
     ["Take care!"],
   ],
 
@@ -20,7 +20,7 @@
     "gaius3.png"
   ],
 
-  "background": "__camp.jpg",
+  "background": "__camp.jpeg",
 
   "music": [
     ["none"],
@@ -30,7 +30,7 @@
   ],
 
   "endings": [
-    ["delivery9.json", "Head home"]
+    ["delivery9.json", "Head home."]
   ]
 
 }

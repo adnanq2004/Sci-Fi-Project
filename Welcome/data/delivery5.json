@@ -45,6 +45,7 @@
     "none",
     "none",
     "none",
+    "none",
     "lucina5.png",
     "generic_a2.png",
     "gaius1.png",
@@ -69,7 +70,7 @@
     ["none"],
     ["none"],
     ["none"],
-    ["stop"]
+    ["none"]
   ],
 
   "endings": [

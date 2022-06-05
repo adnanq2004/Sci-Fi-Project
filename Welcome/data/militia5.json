@@ -16,14 +16,14 @@
   ],
 
   "sprite": [
-    "worm.jpeg",
+    "worm.jpg",
     "lucina3.png",
     "none",
     "none",
     "none"
   ],
 
-  "background": "__red_space.jpg",
+  "background": "__green_asteroids.jpeg",
 
   "music": [
     ["none"],
@@ -34,7 +34,7 @@
   ],
 
   "endings": [
-    ["militia6", "Enter planet."]
+    ["militia6.json", "Enter planet."]
   ]
 
 }

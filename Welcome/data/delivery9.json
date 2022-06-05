@@ -1,11 +1,11 @@
 {
-  "diGingue": [
-    ["Spirit made the journey home.", "Once there, she gave Gin the rest of the money."],
+  "dialogue": [
+    ["Spirit made the journey home and gave Gin the rest of the money."],
     ["With that, Spirit's father received proper treatment."],
     ["He woke up 3 weeks later."],
     ["Hng..."],
     ["Dad? Dad! Gin! Dad's waking up!"],
-    ["What?! Okay, relax.", "Let me check his vitals."],
+    ["What?! Okay, relax. Let me check his vitals."],
     ["Ugh...Spirit? What's happening?"],
     ["Dad, dad, its okay. Take your time getting up."],
     ["What?...you're not making sense Spirit..."],
@@ -74,7 +74,6 @@
   ],
 
   "endings": [
-    []
   ]
 
 }

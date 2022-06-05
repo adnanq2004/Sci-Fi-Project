@@ -2,9 +2,9 @@
   "dialogue": [
     ["Spirit and Tequia walk to the outside of the Throne Room."],
     ["Enter."],
-    ["I greet your majesty, Empress Saki, the one true ruler of the Empire."],
+    ["I greet her majesty, Empress Saki, the one true ruler of the Empire."],
     ["Hm..."],
-    ["I see you've gotten youself a new pilot, Tequia.", "She looks familiar. What's your name girlie?"],
+    ["I see you've gotten youself a new pilot, Tequia. She looks familiar.", "What's your name girl?"],
     ["My name is Spirit, your grace."],
     ["Ah, yes. You've been winning those little racing circuits, galaxy.", "Quite the jump in scale, no? What made you join us?"],
     ["...I needed money to pay for my father's medical treatment.", "Ms. Tequia happened to offer me this job at the time."],
@@ -44,6 +44,7 @@
   "background": "__throne.jpeg",
 
   "music": [
+    ["none"],
     ["none"],
     ["none"],
     ["none"],

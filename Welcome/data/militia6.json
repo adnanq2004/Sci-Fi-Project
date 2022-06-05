@@ -15,7 +15,7 @@
 
   "sprite": [
     "lucina4.png",
-    "worm.jpeg",
+    "worm.jpg",
     "none",
     "lucina5.png"
   ],
@@ -30,7 +30,7 @@
   ],
 
   "endings": [
-    ["militia7", "AAHHHHHH"]
+    ["militia7.json", "AAHHHHHH"]
   ]
 
 }

@@ -22,12 +22,14 @@
     "cordelia2.png",
     "emmeryn4.png",
     "emmeryn4.png",
+    "emmeryn1.png",
     "cordelia1.png"
   ],
 
   "background": "__throne.jpeg",
 
   "music": [
+    ["none"],
     ["none"],
     ["none"],
     ["none"],

@@ -35,7 +35,7 @@
     "gaius4.png"
   ],
 
-  "background": "__camp.jpg",
+  "background": "__camp.jpeg",
 
   "music": [
     ["none"],
@@ -50,7 +50,7 @@
   ],
 
   "endings": [
-    ["milita3.json", "Leave."]
+    ["militia3.json", "Leave."]
   ]
 
 }

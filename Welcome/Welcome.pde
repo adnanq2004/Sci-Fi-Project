@@ -28,9 +28,7 @@ void setup() {
   catch (Exception e){
     System.out.println("found an excpetion");
   }
-  currentlevel = 0.0;  
-  source = loadJSONObject("prologue1.json");
-  current_scene = new Scene(source);
+  currentlevel = 0.0;
 }
 
 void draw() {
@@ -217,7 +215,7 @@ void levels_startup() {
   else {
     if (!(current_scene.music.get(current_section).get(0).equals("none"))) {
       sfile = new SoundFile(this, "music/" + current_scene.music.get(current_section).get(0));
-      sfile.amp(0.2);
+        sfile.amp(0.2);
       sfile.play();
       if (current_scene.music.get(current_section).size() > 1 && current_scene.music.get(current_section).get(1).equals("l")) {
         sfile.loop();
@@ -230,7 +228,6 @@ void levels_ui() {
   bimage = loadImage("backs/"+current_scene.background);
   stroke(0);
   background(bimage);
-  
   fill(51,99,107,127);
   rect(0,0,1000,100);
   rect(0,700,1000,100);
@@ -280,22 +277,7 @@ void levels_ui() {
     text("NEXT", 900, 760);
   }
   else {
-    if (current_scene.endings.size() == 0) {
-      fill(2,32,53,190);
-      rect(20,710,160,80);
-      fill(255);
-      textAlign(CENTER);
-      textSize(30);
-      text("BACK", 100, 760);
-      
-      fill(2,32,53,190);
-      rect(width/2-80,710,160,80);
-      fill(255);
-      textAlign(CENTER);
-      textSize(30);
-      text("MENU", width/2, 760);
-    }
-    else {
+    if (current_scene.endings.size() > 0) {
       fill(2,32,53,190);
       rect(20,710,160,80);
       fill(255);
@@ -315,7 +297,7 @@ void levels_ui() {
       fill(255);
       textAlign(CENTER);
       textSize(30);
-      text(current_scene.endings.get(0).get(1), 220, 60);
+        text(current_scene.endings.get(0).get(1), 220, 60);
       
       if (current_scene.endings.size() > 1) {
         fill(2,32,53,190);
@@ -325,6 +307,21 @@ void levels_ui() {
         textSize(30);
         text(current_scene.endings.get(1).get(1), 780, 60);
       }
+    }
+    else {
+      fill(2,32,53,190);
+      rect(20,710,160,80);
+      fill(255);
+      textAlign(CENTER);
+      textSize(30);
+      text("BACK", 100, 760);
+      
+      fill(2,32,53,190);
+      rect(width/2-80,710,160,80);
+      fill(255);
+      textAlign(CENTER);
+      textSize(30);
+      text("MENU", width/2, 760);
     }
   }
 }
@@ -397,7 +394,9 @@ void mouseClicked() {
         sfile.stop();
       }
       currentlevel = 1.0;
-      current_section = 0;
+      current_section = 0;  
+      source = loadJSONObject("empire9.json");
+      current_scene = new Scene(source);
     }
     else if (mouseX > 420 && mouseX < 580 && mouseY < 450 && mouseY > 350) {
       currentlevel = 0.3;

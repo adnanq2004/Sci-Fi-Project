@@ -9,7 +9,7 @@
     ["Spirit avoids the bullet fire as best as possible,", "but she can't dodge them all."],
     ["Bullets rip holes into her ship and damage it", "so severely that Spirit loses control of it completely."],
     ["With no say left, she begins falling towards the nearest planet."],
-    ["AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH"]
+    ["AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH"]
   ],
 
   "character": [
@@ -38,12 +38,13 @@
     "lucina5.png"
   ],
 
-  "background": "__red_space.jpg",
+  "background": "__green_asteroids.jpeg",
 
   "music": [
     ["none"],
     ["none"],
-    ["battle.mp3"],
+    ["battle1.mp3", "l"],
+    ["none"],
     ["none"],
     ["none"],
     ["none"],
@@ -53,7 +54,7 @@
   ],
 
   "endings": [
-    ["milita4.json", "BRACE FOR IMPACT"]
+    ["militia4.json", "BRACE FOR IMPACT"]
   ]
 
 }
