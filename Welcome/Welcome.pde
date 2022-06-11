@@ -395,7 +395,7 @@ void mouseClicked() {
       }
       currentlevel = 1.0;
       current_section = 0;  
-      source = loadJSONObject("empire9.json");
+      source = loadJSONObject("prologue1.json");
       current_scene = new Scene(source);
     }
     else if (mouseX > 420 && mouseX < 580 && mouseY < 450 && mouseY > 350) {
