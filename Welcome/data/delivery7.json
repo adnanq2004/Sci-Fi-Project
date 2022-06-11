@@ -110,7 +110,7 @@
   ],
 
   "endings": [
-    ["milita1.json", "Accept"],
+    ["militia1.json", "Accept"],
     ["delivery8.json", "Reject"]
   ]
 
