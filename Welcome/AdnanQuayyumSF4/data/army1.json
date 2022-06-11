@@ -1,0 +1,51 @@
+{
+  "dialogue": [
+    ["Alright, I'll take it."],
+    ["Yes! Trust me, you won't regret it!"],
+    ["Just as Spirit is about to comment,", "she hears a gunshot and feels a sharp pain in her leg."],
+    ["She begins falling and sees Shoju get hit too", "and fall down with blood splurting from his chest."],
+    ["While it's a shame that you didn't join us,", "it would be remiss of me to let you", "just go ahead and ally with an Army soldier."],
+    ["The one who fired the gun walks up to Spirit."],
+    ["So, I'm afraid this is goodbye~"],
+    ["The last thing Spirit sees is the gun pointed", "at her face, before Taquil pulls the trigger."]
+  ],
+
+  "character": [
+    "Spirit",
+    "Shoju",
+    "Narrator",
+    "Narrator",
+    "???",
+    "Narrator",
+    "Taquil",
+    "Narrator"
+  ],
+
+  "sprite": [
+    "lucina1.png",
+    "vaike3.png",
+    "none",
+    "none",
+    "none",
+    "none",
+    "cordelia3.png",
+    "none"
+  ],
+
+  "background": "__street.png",
+
+  "music": [
+    ["victory.mp3"],
+    ["none"],
+    ["stop"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"]
+  ],
+
+  "endings": [
+  ]
+
+}

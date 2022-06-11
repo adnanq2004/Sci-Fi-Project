@@ -1,0 +1,32 @@
+{
+  "dialogue": [
+    ["Really? What a shame..."],
+    ["Oh well, I won't waste any more of your time.", "Excuse me, Toni? Where there any other", "recommendations you had for me for personnel?"],
+    ["Oh, yes, of course. Sorry Spirit. I'll let you know", "if I can find another job for you, but I'm a bit busy now."],
+  ],
+
+  "character": [
+    "Tequia",
+    "Tequia",
+    "Toni"
+  ],
+
+  "sprite": [
+    "cordelia2.png",
+    "cordelia4.png",
+    "henry2.png"
+  ],
+
+  "background": "__backroom.jpeg",
+
+  "music": [
+    ["none"],
+    ["none"],
+    ["none"]
+  ],
+
+  "endings": [
+    ["prologue8.json", "Leave"]
+  ]
+
+}

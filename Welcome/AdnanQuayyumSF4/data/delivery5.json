@@ -1,0 +1,80 @@
+{
+  "dialogue": [
+    ["After Spirit lands on Exus, she heads", "straight to the place Shandy told her about."],
+    ["Despite being surrounded by a asteroids, Exus", "managed to maintain its status as a trading planet."],
+    ["She looks for someone who fits Shandy's description", "and by chance she sees him at the marketplace..."],
+    ["Oi, What do you think you're doing?", "How dare you get in the way of the soldiers of the Empire!"],
+    ["Oh, I'm so sorry, officer. My foot must have slipped."],
+    ["Why you..."],
+    ["...just as he was getting into some trouble."],
+    ["Spirit watches as the man slowly backed away from the officers.", "It was then that Spirt noticed a child cowering behind the man."],
+    ["She decides to act, to both get the job over", "with and to help the child."],
+    ["She causes a distraction to give the two a chance to run."],
+    ["Hey, why don't you soldiers go make yourselves useful", "and $^%&%*#@$@$@%$%#$&%^!"],
+    ["What was that?!"],
+    ["!"],
+    ["Spirit watches the two run away, and prepares to run away herself."],
+    ["Hey, you, stop! Get back here!"]
+  ],
+
+  "character": [
+    "Narrator",
+    "Narrator",
+    "Narrator",
+    "Soldier",
+    "???",
+    "Soldier",
+    "Narrator",
+    "Narrator",
+    "Narrator",
+    "Narrator",
+    "Spirit",
+    "Soldier",
+    "???",
+    "Narrartor",
+    "Soldier"
+  ],
+
+  "sprite": [
+    "none",
+    "none",
+    "none",
+    "generic_a1.png",
+    "gaius2.png",
+    "generic_a2.png",
+    "none",
+    "none",
+    "none",
+    "none",
+    "lucina5.png",
+    "generic_a2.png",
+    "gaius1.png",
+    "none",
+    "generic_a1.png"
+  ],
+
+  "background": "__market.jpg",
+
+  "music": [
+    ["none"],
+    ["none"],
+    ["none"],
+    ["battle1.mp3", "l"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"]
+  ],
+
+  "endings": [
+    ["delivery6.json", "Run away!"]
+  ]
+
+}

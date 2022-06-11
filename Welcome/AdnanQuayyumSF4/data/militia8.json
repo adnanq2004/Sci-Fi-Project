@@ -1,0 +1,95 @@
+{
+  "dialogue": [
+    ["The Militia eventually finish cleaning up the camp.", "A Militia commander walks up to Spirit."],
+    ["Hey, who are you? Why are you at our camp?", "Are you the one who killed all the Empire's soldiers?"],
+    ["...I'm Spirit. I was sent over by Whisk.", "I was supposed to deliver a warning about an ambush", "but I guess I was a step too late."],
+    ["As for that other thing...This is Tom. He's the one who did it."],
+    ["So, you're both Boss Whisk's boys? Hah! I'm glad we", "have some useful new recruits! You'll both be", "useful in the field, especially this 'Tom'!"],
+    ["...Neither of us is going to be going to serve in the field.", "Besides, Tom isn't related to the Militia."],
+    ["Hm...So you don't want to fight for our cause?"],
+    ["Well, not a big deal. After all, you'd probably just be", "as good as any other soldier. We can live without you."],
+    ["But I'm afraid we can't let Tom go. You say he's not involved,", "but after that display? We can't possibly let him go."],
+    ["His power could prove too useful if he joins us.", "And if he doesn't it could prove a threat..."],
+    ["The commander moves to grab Tom, but Spirit got in his way."],
+    ["No! I'm not letting you!"],
+    ["Mrrrnn..."],
+    ["The commander sighs at Spirit's resistance.", "After backing away a bit, he makes a motion", "with his hand, and his soldiers raise their guns."],
+    ["Before Spirit can react, several bullets are fired at her."],
+    ["Spirit falls to the ground and Tom fumbles with her.", "She stares up at the face of the commander."],
+    ["I'm sorry, but this is for our goals, for the sake of peace.", "Thanks to you, my soldiers could live, and I thank you for that."],
+    ["Its a shame. I wish you better luck in the afterlife."],
+    ["Spirit finally loses conciousness, and fades away forever..."]
+  ],
+
+  "character": [
+    "Narrator",
+    "Commander",
+    "Spirit",
+    "Spirit",
+    "Commander",
+    "Spirit",
+    "Commander",
+    "Commander",
+    "Commander",
+    "Commander",
+    "Narrator",
+    "Spirit",
+    "Tom",
+    "Narrator",
+    "Narrator",
+    "Narrator",
+    "Commander",
+    "Commander",
+    "Narrator"
+  ],
+
+  "sprite": [
+    "none",
+    "generic_2a3.png",
+    "lucina4.png",
+    "lucina1.png",
+    "generic_2a1.png",
+    "lucina2.png",
+    "generic_2a2.png",
+    "generic_2a2.png",
+    "generic_2a3.png",
+    "generic_2a3.png",
+    "none",
+    "lucina5.png",
+    "worm.jpg",
+    "none",
+    "none",
+    "none",
+    "generic_2a3.png",
+    "generic_2a2.png",
+    "none"
+  ],
+
+  "background": "__destroyed_camp.jpeg",
+
+  "music": [
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"]
+  ],
+
+  "endings": [
+  ]
+
+}

@@ -1,0 +1,60 @@
+{
+  "dialogue": [
+    ["Spirit begins flying towards Planet Molotov."],
+    ["Hmm...this shouldn't be too long of a trip.", "I think I can make it and be back by tomorrow."],
+    ["But suddenly, space bullets whizz past Spirit's ship."],
+    ["@#$%&!"],
+    ["A fleet of fighter crafts were flanking her."],
+    ["Gah, why are they here?!?!"],
+    ["Spirit avoids the bullet fire as best as possible,", "but she can't dodge them all."],
+    ["Bullets rip holes into her ship and damage it", "so severely that Spirit loses control of it completely."],
+    ["With no say left, she begins falling towards the nearest planet."],
+    ["AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH"]
+  ],
+
+  "character": [
+    "Narrator",
+    "Spirit",
+    "Narrator",
+    "Spirit",
+    "Narrator",
+    "Spirit",
+    "Narrator",
+    "Narrator",
+    "Narrator",
+    "Spirit"
+  ],
+
+  "sprite": [
+    "none",
+    "lucina1.png",
+    "none",
+    "lucina5.png",
+    "none",
+    "lucina2.png",
+    "none",
+    "none",
+    "none",
+    "lucina5.png"
+  ],
+
+  "background": "__green_asteroids.jpeg",
+
+  "music": [
+    ["none"],
+    ["none"],
+    ["battle1.mp3", "l"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"]
+  ],
+
+  "endings": [
+    ["militia4.json", "BRACE FOR IMPACT"]
+  ]
+
+}

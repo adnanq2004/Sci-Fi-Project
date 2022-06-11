@@ -1,0 +1,40 @@
+{
+  "dialogue": [
+    ["Mrrrrnpp!"],
+    ["I'm glad you like it.", "Alright, come on. We need to get moving!"],
+    ["The two continue the journey to planet Molotov."],
+    ["This time, Spirit stayed extra vigilant of any attacks", "but no other fleet tries to attack them."],
+    ["The eventually reach the planet without any issues."]
+  ],
+
+  "character": [
+    "Tom",
+    "Spirit",
+    "Narrator",
+    "Narrator",
+    "Narrator"
+  ],
+
+  "sprite": [
+    "worm.jpg",
+    "lucina3.png",
+    "none",
+    "none",
+    "none"
+  ],
+
+  "background": "__green_asteroids.jpeg",
+
+  "music": [
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"]
+  ],
+
+  "endings": [
+    ["militia6.json", "Enter planet."]
+  ]
+
+}

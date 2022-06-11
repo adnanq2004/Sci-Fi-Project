@@ -1,0 +1,84 @@
+{
+  "dialogue": [
+    ["...Or you could just call me 'Spirit'."],
+    ["I think I’ll go with that."],
+    ["Perfect. Now, what do you want? I’m a bit of a busy gal."],
+    ["Hey, easy now."],
+    ["I think you’ll be quite interested in what I’m about to say."],
+    ["Have you ever wanted to be part of something bigger than yourself?", "Sure, running circuits like this is all fine and good, but what if-"],
+    ["Sorry, I'll cut you off there.", "I’m not looking to get involved in the war."],
+    ["I’m surprised you could tell what I was going to ask."],
+    ["You aren’t the first person to try and recruit me", "after being wowed by my racing skills.", "Well, I can’t exactly blame you for it."],
+    ["Anyway, I’m not looking to risk my life for some stupid war."],
+    ["Oh, what if I offered you double whatever you made", "in that last race upfront? And a just as good a payroll", "once you’re actually on the job, I promise."],
+    ["Sorry, even then I don’t agree with the principles", "The Empire's stood for lately, so I’ll pass."],
+    ["Hah! I didn’t think I’d get rejected so soundly!"],
+    ["Well, the offer's there. We're always in need of talented fliers.", "Until we meet again~"],
+    ["...That was weird."],
+    ["Since I got my money already, I guess I'll just head home."]
+  ],
+
+  "character": [
+    "Spirit",
+    "???",
+    "Spirit",
+    "???",
+    "???",
+    "???",
+    "Spirit",
+    "???",
+    "Spirit",
+    "Spirit",
+    "???",
+    "Spirit",
+    "???",
+    "???",
+    "Spirit",
+    "Spirit"
+  ],
+
+  "sprite": [
+    "lucina3.png",
+    "cordelia3.png",
+    "lucina1.png",
+    "cordelia5.png",
+    "cordelia5.png",
+    "cordelia3.png",
+    "lucina2.png",
+    "cordelia5.png",
+    "lucina5.png",
+    "lucina2.png",
+    "cordelia5.png",
+    "lucina5.png",
+    "cordelia3.png",
+    "cordelia5.png",
+    "lucina1.png",
+    "lucina3.png"
+  ],
+
+  "background": "__space_asteroids.jpg",
+
+  "music": [
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"]
+  ],
+
+  "endings": [
+    ["prologue3.json", "Head home"]
+  ]
+
+}

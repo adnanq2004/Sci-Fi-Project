@@ -1,0 +1,33 @@
+{
+  "dialogue": [
+    ["Sorry, I'm not interested."],
+    ["Hrmph, then get out of my way. Imma busy man."],
+    ["I should hurry to the job office."]
+  ],
+
+
+  "character": [
+    "Spirit",
+    "???",
+    "Spirit"
+  ],
+
+  "sprite": [
+    "lucina2.png",
+    "gregor4.png",
+    "lucina1.png"
+  ],
+
+  "background": "__street.jpeg",
+
+  "music": [
+    ["none"],
+    ["none"],
+    ["none"]
+  ],
+
+  "endings": [
+    ["prologue6.json", "Go to Office"]
+  ]
+
+}

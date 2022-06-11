@@ -1,0 +1,81 @@
+{
+  "dialogue": [
+    ["Spirit is in low spirits (:D) as she leaves the center."],
+    ["Great, now I need to come up with another way", "to make money without Toni's help."],
+    ["Well, if it isn't Spirit. What's this about money problems?"],
+    ["Shoju! What're you doing back in town?", "I thought you went off to the war, to earn 'guts or glory'."],
+    ["What, did you come back crying your pants off,", "tail between your legs scared?"],
+    ["Ha ha, very funny. I'll have you know", "I'm a valued elite of the Army."],
+    ["Guess the Army's really lacking in personnel..."],
+    ["...Well, you're not wrong there.", "That's actually what I wanted to talk to you about."],
+    ["Huh?"],
+    ["You're having your 'money problems', right?", "Well, the Army's actually recruiting."],
+    ["You could run flier jobs, couriering goods and messages.", "You’re guaranteed a good wage if you live up to your reputation."],
+    ["Jeez, here we are, meeting again in who knows how long", "and you’re trying to sell me on that stupid war?"],
+    ["I just, I dont know, I really dont want to be part of it all…"],
+    ["Come on, you said you're strapped for cash, right?", "Do you really think you can afford to reject this?"],
+    ["Ugh..."]
+  ],
+
+  "character": [
+    "Narrator",
+    "Spirit",
+    "???",
+    "Spirit",
+    "Spirit",
+    "Shoju",
+    "Spirit",
+    "Shoju",
+    "Spirit",
+    "Shoju",
+    "Shoju",
+    "Spirit",
+    "Spirit",
+    "Shoju",
+    "Spirit"
+  ],
+
+  "sprite": [
+    "none",
+    "lucina2.png",
+    "vaike3.png",
+    "lucina3.png",
+    "lucina3.png",
+    "vaike4.png",
+    "lucina1.png",
+    "vaike2.png",
+    "lucina5.png",
+    "vaike1.png",
+    "vaike3.png",
+    "lucina2.png",
+    "lucina4.png",
+    "vaike1.png",
+    "lucina2.png"
+  ],
+
+  "background": "__street.jpeg",
+
+  "music": [
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["stop"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"]
+  ],
+
+  "endings": [
+    ["army1.json", "Accept"],
+    ["prologue9.json", "Reject"]
+  ]
+
+}

@@ -1,0 +1,36 @@
+{
+  "dialogue": [
+    ["No thanks. I'm here for a job. Nothing more."],
+    ["Yeah, that's fair. Bit of a shame, but I can't fault you."],
+    ["If you ever need a quick job find Shandy, he'll connect you to me."],
+    ["Take care!"],
+  ],
+
+  "character": [
+    "Spirit",
+    "Whisk",
+    "Whisk",
+    "Whisk"
+  ],
+
+  "sprite": [
+    "lucina1.png",
+    "gaius5.png",
+    "gaius5.png",
+    "gaius3.png"
+  ],
+
+  "background": "__camp.jpeg",
+
+  "music": [
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"]
+  ],
+
+  "endings": [
+    ["delivery9.json", "Head home."]
+  ]
+
+}

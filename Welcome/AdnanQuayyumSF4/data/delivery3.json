@@ -1,0 +1,40 @@
+{
+  "dialogue": [
+    ["Spirit returned home to prepare for the journey to Exus."],
+    ["After letting Toni know she won't need the job,", "she checks the condition of her ship and stocks on food."],
+    ["Alright, I'm set."],
+    ["Since I got this job, I need to do it right!", "And once its over, my dad will be healthy again..."],
+    ["Just wait for me dad. I'll be done in no time..."]
+  ],
+
+  "character": [
+    "Narrator",
+    "Narrator",
+    "Spirit",
+    "Spirit",
+    "Spirit"
+  ],
+
+  "sprite": [
+    "none",
+    "none",
+    "lucina1.png",
+    "lucina4.png",
+    "lucina1.png"
+  ],
+
+  "background": "__room.jpeg",
+
+  "music": [
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"]
+  ],
+
+  "endings": [
+    ["delivery4.json", "Start the trip."]
+  ]
+
+}

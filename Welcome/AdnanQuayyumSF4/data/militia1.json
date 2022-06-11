@@ -1,0 +1,52 @@
+{
+  "dialogue": [
+    ["Okay, I'll take you up on that."],
+    ["Good! I'm glad I read you as the right type of person!", "From now on, you can call me 'Boss Whisk'!"],
+    ["Welcome aboard!"],
+    ["Cool, so what do I do now?"],
+    ["Well, now..."],
+    ["We celebrate your joining us!"],
+    ["Whisk grabs the other members of the Militia and", "together they all welcome Spirit into their fold."],
+    ["The day passes filled with celebration..."]
+  ],
+
+  "character": [
+    "Spirit",
+    "Whisk",
+    "Whisk",
+    "Spirit",
+    "Whisk",
+    "Whisk",
+    "Narrator",
+    "Narrator"
+  ],
+
+  "sprite": [
+    "lucina1.png",
+    "gaius5.png",
+    "gaius3.png",
+    "lucina3.png",
+    "gaius5.png",
+    "gaius3.png",
+    "none",
+    "none"
+  ],
+
+  "background": "__camp.jpeg",
+
+  "music": [
+    ["victory.mp3"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"]
+  ],
+
+  "endings": [
+    ["militia2.json", "Next Day."]
+  ]
+
+}

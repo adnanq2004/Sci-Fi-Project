@@ -1,0 +1,32 @@
+{
+  "dialogue": [
+    ["Can you tell me more?"],
+    ["Heh, good to see I got your attention."],
+    ["Follow me, let's talk somewhere more private."]
+  ],
+
+  "character": [
+    "Spirit",
+    "???",
+    "???"
+  ],
+
+  "sprite": [
+    "lucina1.png",
+    "gregor3.png",
+    "gregor5.png"
+  ],
+
+  "background": "__street.jpeg",
+
+  "music": [
+    ["victory.mp3"],
+    ["none"],
+    ["none"]
+  ],
+
+  "endings": [
+    ["delivery2.json", "Follow the man."]
+  ]
+
+}

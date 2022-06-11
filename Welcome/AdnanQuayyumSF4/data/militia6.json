@@ -1,0 +1,36 @@
+{
+  "dialogue": [
+    ["Okay, now we have to find the camp!"],
+    ["Mrrp!"],
+    ["Once again, Tom starts releasing light", "and Spirit had to close her eyes."],
+    ["Whaaaaaaa-"]
+  ],
+
+  "character": [
+    "Spirit",
+    "Tom",
+    "Narrator",
+    "Spirit"
+  ],
+
+  "sprite": [
+    "lucina4.png",
+    "worm.jpg",
+    "none",
+    "lucina5.png"
+  ],
+
+  "background": "__other_planet.jpeg",
+
+  "music": [
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"]
+  ],
+
+  "endings": [
+    ["militia7.json", "AAHHHHHH"]
+  ]
+
+}

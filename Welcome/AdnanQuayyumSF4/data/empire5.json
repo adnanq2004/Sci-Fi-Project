@@ -1,0 +1,56 @@
+{
+  "dialogue": [
+    ["The pair walked out of the palace and towards a company ship."],
+    ["Okay, looks like you're starting off with quite the task.", "The trip to Prohibre is a long one."],
+    ["You'll be flying the platoon ship. It shouldn't be too", "different from what you're used to in terms of handling."],
+    ["Yes, understood Ms. Tequia. Just one question.", "What exactly will I be doing besides flying to the planet."],
+    ["The Empire has bases hidden on most planets nowadays.", "So for now you'll just drop off the troops at one of them."],
+    ["The two of us will stay at the base, while", "the rest of the army will advance on the enemy."],
+    ["The enemy's forces aren't expected to be too significant,", "so the captains of each squad should be able to handle it."],
+    ["Later on, you might be expected to pilot the ship into battle", "to take retreating troops, or to relocate them to other", "parts of the battlefield to stage attacks."],
+    ["But that shouldn't be the case for this mission.", "Leave future jobs for your future self.", "Are you ready to fly to Prohibre?"]
+  ],
+
+  "character": [
+    "Narrator",
+    "Tequia",
+    "Tequia",
+    "Spirit",
+    "Tequia",
+    "Tequia",
+    "Tequia",
+    "Tequia",
+    "Tequia"
+  ],
+
+  "sprite": [
+    "none",
+    "cordelia1.png",
+    "cordelia1.png",
+    "lucina1.png",
+    "cordelia2.png",
+    "cordelia4.png",
+    "cordelia1.png",
+    "cordelia1.png",
+    "cordelia5.png"
+  ],
+
+  "background": "__kingdom.jpeg",
+
+  "music": [
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"],
+    ["none"]
+  ],
+
+  "endings": [
+    ["empire6.json", "Get on the Ship."]
+  ]
+
+}
